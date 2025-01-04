@@ -1,0 +1,2148 @@
+
+<!DOCTYPE html><html lang="en" data-bs-theme="light" data-pwa="true"><head>
+    <meta charset="utf-8">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+
+    <!-- SEO Meta Tags -->
+    <title>Finder | Real Estate - Homepage</title>
+    <meta name="description" content="Finder - Directory &amp; Listings Bootstrap HTML Template">
+    <meta name="keywords" content="directory, listings, search, car dealer, real estate, city guide, business listings, medical directories, event listings, e-commerce, market, multipurpose, ui kit, light and dark mode, bootstrap, html5, css3, javascript, gallery, slider, mobile, pwa">
+    <meta name="author" content="Createx Studio">
+
+    <!-- Webmanifest + Favicon / App icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/png" href="assets/app-icons/icon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="assets/app-icons/icon-180x180.png">
+
+    <!-- Theme switcher (color modes) -->
+    <script src="assets/js/theme-switcher.js"></script>
+
+    <!-- Preloaded local web font (Inter) -->
+    <link rel="preload" href="assets/fonts/inter-variable-latin.woff2" as="font" type="font/woff2" crossorigin="">
+
+    <!-- Font icons -->
+    <link rel="preload" href="assets/icons/finder-icons.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="stylesheet" href="assets/icons/finder-icons.min.css">
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/vendor/choices.js/choices.min.css">
+    <link rel="stylesheet" href="assets/vendor/nouislider/nouislider.min.css">
+
+    <!-- Bootstrap + Theme styles -->
+    <link rel="preload" href="assets/css/theme.min.css" as="style">
+    <link rel="preload" href="assets/css/theme.rtl.min.css" as="style">
+    <link rel="stylesheet" href="assets/css/theme.min.css" id="theme-styles">
+    <!-- Animation library -->
+    <link rel="stylesheet" href="assets/css/animate_css/animate.css">
+    <link rel="stylesheet" href="assets/lib/wow/animate.css">
+
+
+    <!-- Customizer -->
+    <script src="assets/js/customizer.min.js"></script>
+  </head>
+
+
+  <!-- Body -->
+  <body>
+
+    <!-- Customizer offcanvas -->
+    <div class="offcanvas offcanvas-end" id="customizer" tabindex="-1">
+      <div class="offcanvas-header border-bottom">
+        <h4 class="h5 offcanvas-title">Customize theme</h4>
+        <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+
+        <!-- Customizer settings -->
+        <div class="customizer-collapse collapse show" id="customizerSettings">
+
+          <!-- Colors -->
+          <div class="pb-4 mb-2">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fi-swatches text-body-tertiary fs-5 me-2"></i>
+              <h5 class="fs-lg mb-0">Colors</h5>
+            </div>
+            <div class="row row-cols-2 g-3" id="theme-colors">
+              <div class="col">
+                <h6 class="fs-sm mb-2">Primary</h6>
+                <div class="color-swatch d-flex border rounded gap-3 p-2" id="theme-primary" data-color-labels="[&quot;theme-primary&quot;, &quot;primary&quot;, &quot;primary-rgb&quot;]">
+                  <input type="text" class="form-control bg-transparent border-0 rounded-0 p-1" value="#d85151">
+                  <label for="primary" class="ratio ratio-1x1 flex-shrink-0 w-100 cursor-pointer rounded-circle" style="max-width: 38px; background-color: #d85151"></label>
+                  <input type="color" class="visually-hidden" id="primary" value="#d85151">
+                </div>
+              </div>
+              <div class="col">
+                <h6 class="fs-sm mb-2">Success</h6>
+                <div class="color-swatch d-flex border rounded gap-3 p-2" id="theme-success" data-color-labels="[&quot;theme-success&quot;, &quot;success&quot;, &quot;success-rgb&quot;]">
+                  <input type="text" class="form-control bg-transparent border-0 rounded-0 p-1" value="#33b36b">
+                  <label for="success" class="ratio ratio-1x1 flex-shrink-0 w-100 cursor-pointer rounded-circle" style="max-width: 38px; background-color: #33b36b"></label>
+                  <input type="color" class="visually-hidden" id="success" value="#33b36b">
+                </div>
+              </div>
+              <div class="col">
+                <h6 class="fs-sm mb-2">Warning</h6>
+                <div class="color-swatch d-flex border rounded gap-3 p-2" id="theme-warning" data-color-labels="[&quot;theme-warning&quot;, &quot;warning&quot;, &quot;warning-rgb&quot;]">
+                  <input type="text" class="form-control bg-transparent border-0 rounded-0 p-1" value="#fc9231">
+                  <label for="warning" class="ratio ratio-1x1 flex-shrink-0 w-100 cursor-pointer rounded-circle" style="max-width: 38px; background-color: #fc9231"></label>
+                  <input type="color" class="visually-hidden" id="warning" value="#fc9231">
+                </div>
+              </div>
+              <div class="col">
+                <h6 class="fs-sm mb-2">Danger</h6>
+                <div class="color-swatch d-flex border rounded gap-2 p-2" id="theme-danger" data-color-labels="[&quot;theme-danger&quot;, &quot;danger&quot;, &quot;danger-rgb&quot;]">
+                  <input type="text" class="form-control bg-transparent border-0 rounded-0 p-1" value="#f03d3d">
+                  <label for="danger" class="ratio ratio-1x1 flex-shrink-0 w-100 cursor-pointer rounded-circle" style="max-width: 38px; background-color: #f03d3d"></label>
+                  <input type="color" class="visually-hidden" id="danger" value="#f03d3d">
+                </div>
+              </div>
+              <div class="col">
+                <h6 class="fs-sm mb-2">Info</h6>
+                <div class="color-swatch d-flex border rounded gap-2 p-2" id="theme-info" data-color-labels="[&quot;theme-info&quot;, &quot;info&quot;, &quot;info-rgb&quot;]">
+                  <input type="text" class="form-control bg-transparent border-0 rounded-0 p-1" value="#3d7a81">
+                  <label for="info" class="ratio ratio-1x1 flex-shrink-0 w-100 cursor-pointer rounded-circle" style="max-width: 38px; background-color: #3d7a81"></label>
+                  <input type="color" class="visually-hidden" id="info" value="#3d7a81">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Direction -->
+          <div class="pb-4 mb-2">
+            <div class="d-flex align-items-center pb-1 mb-2">
+              <i class="fi-sort text-body-tertiary fs-lg me-2" style="transform: rotate(90deg)"></i>
+              <h5 class="fs-lg mb-0">Direction</h5>
+            </div>
+            <div class="d-flex align-items-center justify-content-between border rounded p-3">
+              <div class="me-3">
+                <h6 class="mb-1">RTL</h6>
+                <p class="fs-sm mb-0">Change text direction</p>
+              </div>
+              <div class="form-check form-switch m-0">
+                <input type="checkbox" class="form-check-input" role="switch" id="rtl-switch">
+              </div>
+            </div>
+            <div class="alert alert-info p-2 mt-2 mb-0">
+              <div class="d-flex text-body-emphasis fs-xs py-1 pe-1">
+                <i class="fi-info text-info fs-lg mb-2 mb-sm-0" style="margin-top: .125rem"></i>
+                <div class="ps-2">To switch the text direction of your webpage from LTR to RTL, please consult the detailed instructions provided in the relevant section of our documentation.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Border width -->
+          <div class="pb-4 mb-2">
+            <div class="d-flex align-items-center pb-1 mb-2">
+              <i class="fi-menu text-body-tertiary fs-lg me-2"></i>
+              <h5 class="fs-lg mb-0">Border width, px</h5>
+            </div>
+            <div class="slider-input d-flex align-items-center gap-3 border rounded p-3" id="border-input">
+              <input type="range" class="form-range" min="0" max="10" step="1" value="1">
+              <input type="number" class="form-control" id="border-width" min="0" max="10" value="1" style="max-width: 5.5rem">
+            </div>
+          </div>
+
+          <!-- Rounding -->
+          <div class="d-flex align-items-center pb-1 mb-2">
+            <i class="fi-maximize text-body-tertiary fs-lg me-2"></i>
+            <h5 class="fs-lg mb-0">Rounding, rem</h5>
+          </div>
+          <div class="slider-input d-flex align-items-center gap-3 border rounded p-3">
+            <input type="range" class="form-range" min="0" max="5" step=".05" value="0.5">
+            <input type="number" class="form-control" id="border-radius" min="0" max="5" step=".05" value="0.5" style="max-width: 5.5rem">
+          </div>
+        </div>
+
+        <!-- Customizer code -->
+        <div class="customizer-collapse collapse" id="customizerCode">
+          <div class="nav mb-3">
+            <a class="nav-link position-relative fs-base p-0" href=".customizer-collapse" data-bs-toggle="collapse" aria-expanded="true" aria-controls="customizerSettings customizerCode">
+              <i class="fi-chevron-left fs-lg ms-n1 me-1"></i>
+              <span class="hover-effect-underline stretched-link">Back to settings</span>
+            </a>
+          </div>
+          <p class="fs-sm pb-1">To apply the provided styles to your webpage, enclose them within a <code>&lt;style&gt;</code> tag and insert this tag into the <code>&lt;head&gt;</code> section of your HTML document after the following link to the main stylesheet:<br><code>&lt;link href="assets/css/theme.min.css"&gt;</code></p>
+          <div class="position-relative bg-body-tertiary rounded overflow-hidden pt-3">
+            <div class="position-absolute top-0 start-0 w-100 p-3">
+              <button type="button" class="btn btn-sm btn-outline-dark w-100" data-copy-text-from="#generated-styles" data-done-label="Code copied">
+                <i class="fi-copy fs-sm me-1"></i>
+                Copy code
+              </button>
+            </div>
+            <pre class="text-wrap bg-transparent border-0 fs-xs text-body-emphasis p-4 pt-5" id="generated-styles"></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- Offcanvas footer (Action buttons) -->
+      <div class="offcanvas-header border-top gap-3 d-none" id="customizer-btns">
+        <button type="button" class="btn btn-lg btn-secondary w-100 fs-sm" id="customizer-reset">
+          <i class="fi-trash fs-lg me-2 ms-n1"></i>
+          Reset
+        </button>
+        <button class="btn btn-lg btn-primary hiding-collapse-toggle w-100 fs-sm collapsed" type="button" data-bs-toggle="collapse" data-bs-target=".customizer-collapse" aria-expanded="false" aria-controls="customizerSettings customizerCode">
+          <i class="fi-code fs-lg me-2 ms-n1"></i>
+          Show code
+        </button>
+      </div>
+    </div>
+
+
+    <!-- Navigation bar (Page header) -->
+    <header class="navbar navbar-expand-lg bg-body navbar-sticky sticky-top z-fixed px-0" data-sticky-element="">
+      <div class="container">
+
+        <!-- Mobile offcanvas menu toggler (Hamburger) -->
+        <button type="button" class="navbar-toggler me-3 me-lg-0" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar brand (Logo) -->
+        <a class="navbar-brand py-1 py-md-2 py-xl-1 me-2 me-sm-n4 me-md-n5 me-lg-0" href="#">
+          <span class="d-none d-sm-flex flex-shrink-0 text-primary rtl-flip me-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34"><path d="M34.5 16.894v10.731c0 3.506-2.869 6.375-6.375 6.375H17.5h-.85C7.725 33.575.5 26.138.5 17c0-9.35 7.65-17 17-17s17 7.544 17 16.894z" fill="currentColor"></path><g fill-rule="evenodd"><path d="M17.5 13.258c-3.101 0-5.655 2.554-5.655 5.655s2.554 5.655 5.655 5.655 5.655-2.554 5.655-5.655-2.554-5.655-5.655-5.655zm-9.433 5.655c0-5.187 4.246-9.433 9.433-9.433s9.433 4.246 9.433 9.433a9.36 9.36 0 0 1-1.569 5.192l2.397 2.397a1.89 1.89 0 0 1 0 2.671 1.89 1.89 0 0 1-2.671 0l-2.397-2.397a9.36 9.36 0 0 1-5.192 1.569c-5.187 0-9.433-4.246-9.433-9.433z" fill="#000" fill-opacity=".05"></path><g fill="#fff"><path d="M17.394 10.153c-3.723 0-6.741 3.018-6.741 6.741s3.018 6.741 6.741 6.741 6.741-3.018 6.741-6.741-3.018-6.741-6.741-6.741zM7.347 16.894A10.05 10.05 0 0 1 17.394 6.847 10.05 10.05 0 0 1 27.44 16.894 10.05 10.05 0 0 1 17.394 26.94 10.05 10.05 0 0 1 7.347 16.894z"></path><path d="M23.025 22.525c.645-.645 1.692-.645 2.337 0l3.188 3.188c.645.645.645 1.692 0 2.337s-1.692.645-2.337 0l-3.187-3.187c-.645-.646-.645-1.692 0-2.337z"></path></g></g><path d="M23.662 14.663c2.112 0 3.825-1.713 3.825-3.825s-1.713-3.825-3.825-3.825-3.825 1.713-3.825 3.825 1.713 3.825 3.825 3.825z" fill="#fff"></path><path fill-rule="evenodd" d="M23.663 8.429a2.41 2.41 0 0 0-2.408 2.408 2.41 2.41 0 0 0 2.408 2.408 2.41 2.41 0 0 0 2.408-2.408 2.41 2.41 0 0 0-2.408-2.408zm-5.242 2.408c0-2.895 2.347-5.242 5.242-5.242s5.242 2.347 5.242 5.242-2.347 5.242-5.242 5.242-5.242-2.347-5.242-5.242z" fill="currentColor"></path></svg>
+          </span>
+          Finder
+        </a>
+
+        <!-- Main navigation that turns into offcanvas on screens < 992px wide (lg breakpoint) -->
+        <nav class="offcanvas offcanvas-start" id="navbarNav" tabindex="-1" aria-labelledby="navbarNavLabel">
+          <div class="offcanvas-header py-3">
+            <h5 class="offcanvas-title" id="navbarNavLabel">Browse Finder</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body pt-2 pb-4 py-lg-0 mx-lg-auto">
+            <ul class="navbar-nav position-relative">
+              <li class="nav-item dropdown py-lg-2 me-lg-n1 me-xl-0">
+                <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" data-bs-trigger="hover" aria-expanded="false">Home</a>
+                <ul class="dropdown-menu">
+                  <li class="hover-effect-opacity px-2 mx-n2">
+                    <a class="dropdown-item d-block mb-0" href="#">
+                      <span class="fw-medium">Real Estate</span>
+                      <span class="d-block fs-xs text-body-secondary">Property listings directory</span>
+                      <div class="d-none d-lg-block hover-effect-target position-absolute top-0 start-100 bg-body border border-light-subtle rounded rounded-start-0 transition-none invisible opacity-0 pt-2 px-2 ms-n2" style="width: 212px; height: calc(100% + 2px); margin-top: -1px">
+                        <img class="position-relative z-2 d-none-dark" src="assets/img/mega-menu/real-estate-light.jpg" alt="Real Estate Demo">
+                        <img class="position-relative z-2 d-none d-block-dark" src="assets/img/mega-menu/real-estate-dark.jpg" alt="Real Estate Demo">
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none-dark" style="box-shadow: .875rem .5rem 2rem -.5rem #676f7b; opacity: .1"></span>
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none d-block-dark" style="box-shadow: .875rem .5rem 1.875rem -.5rem #080b12; opacity: .25"></span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="hover-effect-opacity px-2 mx-n2">
+                    <a class="dropdown-item d-block mb-0" href="#">
+                      <span class="fw-medium">Cars</span>
+                      <span class="d-block fs-xs text-body-secondary">Vehicle sales listings</span>
+                      <div class="d-none d-lg-block hover-effect-target position-absolute top-0 start-100 bg-body border border-light-subtle rounded rounded-start-0 transition-none invisible opacity-0 pt-2 px-2 ms-n2" style="width: 212px; height: calc(100% + 2px); margin-top: -1px">
+                        <img class="position-relative z-2 d-none-dark" src="assets/img/mega-menu/cars-light.jpg" alt="Cars Demo">
+                        <img class="position-relative z-2 d-none d-block-dark" src="assets/img/mega-menu/cars-dark.jpg" alt="Cars Demo">
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none-dark" style="box-shadow: .875rem .5rem 2rem -.5rem #676f7b; opacity: .1"></span>
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none d-block-dark" style="box-shadow: .875rem .5rem 1.875rem -.5rem #080b12; opacity: .25"></span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="hover-effect-opacity px-2 mx-n2">
+                    <a class="dropdown-item d-block mb-0" href="#">
+                      <span class="fw-medium">Contractors</span>
+                      <span class="d-block fs-xs text-body-secondary">Professional services directory</span>
+                      <div class="d-none d-lg-block hover-effect-target position-absolute top-0 start-100 bg-body border border-light-subtle rounded rounded-start-0 transition-none invisible opacity-0 pt-2 px-2 ms-n2" style="width: 212px; height: calc(100% + 2px); margin-top: -1px">
+                        <img class="position-relative z-2 d-none-dark" src="assets/img/mega-menu/contractors-light.jpg" alt="Contractors Demo">
+                        <img class="position-relative z-2 d-none d-block-dark" src="assets/img/mega-menu/contractors-dark.jpg" alt="Contractors Demo">
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none-dark" style="box-shadow: .875rem .5rem 2rem -.5rem #676f7b; opacity: .1"></span>
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none d-block-dark" style="box-shadow: .875rem .5rem 1.875rem -.5rem #080b12; opacity: .25"></span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="hover-effect-opacity px-2 mx-n2">
+                    <a class="dropdown-item d-block mb-0" href="#">
+                      <span class="fw-medium">Doctors</span>
+                      <span class="d-block fs-xs text-body-secondary">Medical professionals listings</span>
+                      <div class="d-none d-lg-block hover-effect-target position-absolute top-0 start-100 bg-body border border-light-subtle rounded rounded-start-0 transition-none invisible opacity-0 pt-2 px-2 ms-n2" style="width: 212px; height: calc(100% + 2px); margin-top: -1px">
+                        <img class="position-relative z-2 d-none-dark" src="assets/img/mega-menu/doctors-light.jpg" alt="Doctors Demo">
+                        <img class="position-relative z-2 d-none d-block-dark" src="assets/img/mega-menu/doctors-dark.jpg" alt="Doctors Demo">
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none-dark" style="box-shadow: .875rem .5rem 2rem -.5rem #676f7b; opacity: .1"></span>
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none d-block-dark" style="box-shadow: .875rem .5rem 1.875rem -.5rem #080b12; opacity: .25"></span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="hover-effect-opacity px-2 mx-n2">
+                    <a class="dropdown-item d-block mb-0" href="#">
+                      <span class="fw-medium">Events</span>
+                      <span class="d-block fs-xs text-body-secondary">Upcoming events listings</span>
+                      <div class="d-none d-lg-block hover-effect-target position-absolute top-0 start-100 bg-body border border-light-subtle rounded rounded-start-0 transition-none invisible opacity-0 pt-2 px-2 ms-n2" style="width: 212px; height: calc(100% + 2px); margin-top: -1px">
+                        <img class="position-relative z-2 d-none-dark" src="assets/img/mega-menu/events-light.jpg" alt="Events Demo">
+                        <img class="position-relative z-2 d-none d-block-dark" src="assets/img/mega-menu/events-dark.jpg" alt="Events Demo">
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none-dark" style="box-shadow: .875rem .5rem 2rem -.5rem #676f7b; opacity: .1"></span>
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none d-block-dark" style="box-shadow: .875rem .5rem 1.875rem -.5rem #080b12; opacity: .25"></span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="hover-effect-opacity px-2 mx-n2">
+                    <a class="dropdown-item d-block mb-0" href="#">
+                      <span class="fw-medium">City Guide</span>
+                      <span class="d-block fs-xs text-body-secondary">Local places directory</span>
+                      <div class="d-none d-lg-block hover-effect-target position-absolute top-0 start-100 bg-body border border-light-subtle rounded rounded-start-0 transition-none invisible opacity-0 pt-2 px-2 ms-n2" style="width: 212px; height: calc(100% + 2px); margin-top: -1px">
+                        <img class="position-relative z-2 d-none-dark" src="assets/img/mega-menu/city-guide-light.jpg" alt="City Guide Demo">
+                        <img class="position-relative z-2 d-none d-block-dark" src="assets/img/mega-menu/city-guide-dark.jpg" alt="City Guide Demo">
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none-dark" style="box-shadow: .875rem .5rem 2rem -.5rem #676f7b; opacity: .1"></span>
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded rounded-start-0 d-none d-block-dark" style="box-shadow: .875rem .5rem 1.875rem -.5rem #080b12; opacity: .25"></span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown position-static py-lg-2 me-lg-n1 me-xl-0">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-trigger="hover" aria-expanded="false">Listings</a>
+                <div class="dropdown-menu rounded-4 p-4">
+                  <div class="d-flex flex-column flex-lg-row gap-4">
+                    <div style="min-width: 190px">
+                      <div class="h6 mb-2">Real Estate</div>
+                      <ul class="nav flex-column gap-2 mt-0">
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Map/Listings Split View</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Property Details Page</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Vendor Page</a>
+                        </li>
+                      </ul>
+                      <div class="h6 pt-4 mb-2">Cars</div>
+                      <ul class="nav flex-column gap-2 mt-0">
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Listings Grid View</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Listings List View</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Car Details Page</a>
+                        </li>
+                      </ul>
+                      <div class="h6 pt-4 mb-2">Contractors</div>
+                      <ul class="nav flex-column gap-2 mt-0">
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Listings with Side Filters</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Contractor Details Page</a>
+                        </li>
+                      </ul>
+                      <div class="h6 pt-4 mb-2">Doctors</div>
+                      <ul class="nav flex-column gap-2 mt-0">
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Listings List View</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Listings Grid View</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Doctor Details Page</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div style="min-width: 190px">
+                      <div class="h6 mb-2">Events</div>
+                      <ul class="nav flex-column gap-2 mt-0">
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Listings with Top Filters</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Event Details Page</a>
+                        </li>
+                      </ul>
+                      <div class="h6 pt-4 mb-2">City Guide</div>
+                      <ul class="nav flex-column gap-2 mt-0">
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Listings with Side Filters</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Listings with Top Filters</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Place Details Page</a>
+                        </li>
+                      </ul>
+                      <div class="h6 pt-4 mb-2">Add Property</div>
+                      <ul class="nav flex-column gap-2 mt-0">
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Property type</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Location</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Photos and Videos</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Property Details</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Price</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Contact Info</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Ad Promotion</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div style="min-width: 190px">
+                      <div class="h6 mb-2">Add Contractor</div>
+                      <ul class="nav flex-column gap-2 mt-0">
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Business Location</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Choose Services</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Profile Details</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Price and Hours</a>
+                        </li>
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Create First Project</a>
+                        </li>
+                      </ul>
+                      <div class="h6 pt-4 mb-2">Add (Sell) Car</div>
+                      <ul class="nav flex-column gap-2 mt-0">
+                        <li class="pt-1">
+                          <a class="nav-link hover-effect-underline d-inline fw-normal p-0" href="#">Add (Sell) Car Page</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown py-lg-2 me-lg-n1 me-xl-0">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-trigger="hover" data-bs-auto-close="outside" aria-expanded="false">Account</a>
+                <ul class="dropdown-menu">
+                  <li class="dropend">
+                    <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-trigger="hover" aria-expanded="false">Auth Pages</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Sign In</a></li>
+                      <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                      <li><a class="dropdown-item" href="#">Password Recovery</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">My Profile</a></li>
+                  <li><a class="dropdown-item" href="#">My Listings</a></li>
+                  <li><a class="dropdown-item" href="#">Reviews</a></li>
+                  <li><a class="dropdown-item" href="#">Favorites</a></li>
+                  <li><a class="dropdown-item" href="#">Payment Details</a></li>
+                  <li><a class="dropdown-item" href="#">Account Settings</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown py-lg-2 me-lg-n1 me-xl-0">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-trigger="hover" data-bs-auto-close="outside" aria-expanded="false">Pages</a>
+                <ul class="dropdown-menu">
+                  <li class="dropend">
+                    <a class="dropdown-item dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" data-bs-trigger="hover" aria-expanded="false">About</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">About v.1</a></li>
+                      <li><a class="dropdown-item" href="#">About v.2</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropend">
+                    <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-trigger="hover" aria-expanded="false">Blog</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Blog Layout v.1</a></li>
+                      <li><a class="dropdown-item" href="#">Blog Layout v.2</a></li>
+                      <li><a class="dropdown-item" href="#">Blog Layout v.3</a></li>
+                      <li><a class="dropdown-item" href="#">Blog Layout v.4</a></li>
+                      <li><a class="dropdown-item" href="#">Single Post v.1</a></li>
+                      <li><a class="dropdown-item" href="#">Single Post v.2</a></li>
+                      <li><a class="dropdown-item" href="#">Single Post v.3</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropend">
+                    <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-trigger="hover" aria-expanded="false">Contact</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Contact v.1</a></li>
+                      <li><a class="dropdown-item" href="#">Contact v.2</a></li>
+                      <li><a class="dropdown-item" href="#">Contact v.3</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropend">
+                    <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-trigger="hover" aria-expanded="false">Help Center</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Help Topics v.1</a></li>
+                      <li><a class="dropdown-item" href="#">Help Topics v.2</a></li>
+                      <li><a class="dropdown-item" href="#">Help Topics v.3</a></li>
+                      <li><a class="dropdown-item" href="#">Help Single Article v.1</a></li>
+                      <li><a class="dropdown-item" href="#">Help Single Article v.2</a></li>
+                      <li><a class="dropdown-item" href="#">Help Single Article v.3</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropend">
+                    <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-trigger="hover" aria-expanded="false">404 Error</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Background Image (Real Estate)</a></li>
+                      <li><a class="dropdown-item" href="#">Icon Image (Cars)</a></li>
+                      <li><a class="dropdown-item" href="#">Split Screen (Contractors)</a></li>
+                      <li><a class="dropdown-item" href="#">Illustration (City Guide)</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Terms &amp; Conditions</a></li>
+                </ul>
+              </li>
+              <li class="nav-item py-lg-2 me-lg-n2 me-xl-0">
+                <a class="nav-link" href="#">Docs</a>
+              </li>
+              <li class="nav-item py-lg-2 me-lg-n2 me-xl-0">
+                <a class="nav-link" href="#">Components</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Button group -->
+        <div class="d-flex gap-sm-1">
+          <!-- Switch language -->
+          <a class="btn btn-icon btn-outline-secondary fs-lg border-0 animate-shake me-2" id="langSwitcher" href="./indexAr.html" >Ar</a>
+
+          <!-- Theme switcher (light/dark/auto) -->
+          <div class="dropdown">
+            <button type="button" class="theme-switcher btn btn-icon btn-outline-secondary fs-lg border-0 animate-scale" data-bs-toggle="dropdown" data-bs-display="dynamic" aria-expanded="false" aria-label="Toggle theme (light)">
+              <span class="theme-icon-active d-flex animate-target">
+                <i class="fi-sun"></i>
+              </span>
+            </button>
+            <ul class="dropdown-menu start-50 translate-middle-x" style="--fn-dropdown-min-width: 9rem; --fn-dropdown-spacer: .5rem">
+              <li>
+                <button type="button" class="dropdown-item active" data-bs-theme-value="light" aria-pressed="true">
+                  <span class="theme-icon d-flex fs-base me-2">
+                    <i class="fi-sun"></i>
+                  </span>
+                  <span class="theme-label">Light</span>
+                  <i class="item-active-indicator fi-check ms-auto"></i>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item" data-bs-theme-value="dark" aria-pressed="false">
+                  <span class="theme-icon d-flex fs-base me-2">
+                    <i class="fi-moon"></i>
+                  </span>
+                  <span class="theme-label">Dark</span>
+                  <i class="item-active-indicator fi-check ms-auto"></i>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item" data-bs-theme-value="auto" aria-pressed="false">
+                  <span class="theme-icon d-flex fs-base me-2">
+                    <i class="fi-auto"></i>
+                  </span>
+                  <span class="theme-label">Auto</span>
+                  <i class="item-active-indicator fi-check ms-auto"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Account button -->
+          <a class="btn btn-icon btn-outline-secondary fs-lg border-0 animate-shake me-2" href="#" aria-label="Sign in to account">
+            <i class="fi-user animate-target"></i>
+          </a>
+
+          <!-- Add property button  -->
+          <a class="btn btn-primary animate-scale" href="#">
+            <i class="fi-plus fs-lg animate-target ms-n2 me-1 me-sm-2"></i>
+            Add<span class="d-none d-xl-inline ms-1">property</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Page content -->
+    <main class="content-wrapper">
+
+      <!-- Hero with search form -->
+      <section class="position-relative mt-md-5">
+        <div class="container position-relative z-1 pt-5 pt-md-4 pt-xl-5">
+          <div class="row pt-lg-3 pt-xl-0 pt-xxl-4 pb-4 pb-md-5 pb-xl-0">
+            <div class="col-md-6 col-xxl-5 text-center text-md-start">
+              <h1 class="display-4 pb-sm-1 pb-lg-3 animate__animated animate__backInDown">Easy way to find a perfect property</h1>
+              <p class="fs-lg mb-md-0 animate__animated animate__backInLeft">We provide a complete service for the sale, purchase or rental of real estate.</p>
+            </div>
+          </div>
+          <div class="d-none d-md-block d-lg-none" style="height: 70px"></div>
+          <div class="d-none d-lg-block d-xl-none" style="height: 130px"></div>
+          <div class="d-none d-xl-block" style="height: 220px"></div>
+
+          <!-- Search form -->
+          <div class="row pb-5 pb-md-0">
+            <div class="col-xl-10 col-xxl-9">
+              <form class="bg-body border rounded-4 p-2">
+                <div class="row g-0 p-1">
+                  <div class="col-lg-7">
+                    <div class="row g-0">
+                      <div class="col-6 col-md-4 d-flex">
+                        <div class="w-100">
+                          <select class="form-select form-select-lg border-0 ps-3" data-select="{
+                            &quot;classNames&quot;: {
+                              &quot;containerInner&quot;: [&quot;form-select&quot;, &quot;form-select-lg&quot;, &quot;border-0&quot;, &quot;ps-3&quot;]
+                            },
+                            &quot;removeItemButton&quot;: false
+                          }" aria-label="Rent or sale select" required="">
+                            <option value="For rent">For rent</option>
+                            <option value="For sale">For sale</option>
+                          </select>
+                        </div>
+                        <hr class="vr m-0">
+                      </div>
+                      <div class="col-6 col-md-4 d-flex">
+                        <div class="w-100">
+                          <select class="form-select form-select-lg border-0" data-select="{
+                            &quot;classNames&quot;: {
+                              &quot;containerInner&quot;: [&quot;form-select&quot;, &quot;form-select-lg&quot;, &quot;border-0&quot;]
+                            },
+                            &quot;searchEnabled&quot;: true
+                          }" aria-label="Location select" required="">
+                            <option value="">Location</option>
+                            <option value="New York">New York</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="Chicago">Chicago</option>
+                            <option value="Houston">Houston</option>
+                            <option value="Phoenix">Phoenix</option>
+                            <option value="Philadelphia">Philadelphia</option>
+                            <option value="San Antonio">San Antonio</option>
+                            <option value="San Diego">San Diego</option>
+                            <option value="Dallas">Dallas</option>
+                            <option value="San Jose">San Jose</option>
+                          </select>
+                        </div>
+                        <hr class="vr d-none d-md-block m-0">
+                      </div>
+                      <div class="col-md-4 d-flex">
+                        <div class="w-100">
+                          <hr class="d-md-none my-2">
+                          <select class="form-select form-select-lg border-0 ps-3" data-select="{
+                            &quot;classNames&quot;: {
+                              &quot;containerInner&quot;: [&quot;form-select&quot;, &quot;form-select-lg&quot;, &quot;border-0&quot;, &quot;ps-3&quot;]
+                            },
+                            &quot;removeItemButton&quot;: false
+                          }" aria-label="Property type select" required="">
+                            <option value="">Property type</option>
+                            <option value="Houses">Houses</option>
+                            <option value="Apartments">Apartments</option>
+                            <option value="Commercial">Commercial</option>
+                            <option value="Daily rental">Daily rental</option>
+                            <option value="Offices">Offices</option>
+                            <option value="Townhouses">Townhouses</option>
+                          </select>
+                        </div>
+                        <hr class="vr d-none d-lg-block m-0">
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="d-lg-none mt-2 mb-0">
+                  <div class="col-lg-5 d-flex flex-column flex-sm-row align-items-sm-center gap-2 gap-sm-3 pt-3 pt-lg-0 ps-lg-3">
+                    <div class="d-flex align-items-center w-100 gap-2 ps-2 ps-lg-0">
+                      Price
+                      <div class="range-slider w-100" data-range-slider="{&quot;startMin&quot;: 2000, &quot;min&quot;: 500, &quot;max&quot;: 4000, &quot;step&quot;: 100, &quot;tooltipPrefix&quot;: &quot;$&quot;}">
+                        <div class="range-slider-ui my-4"></div>
+                        <input type="hidden" class="form-control" data-range-slider-min="">
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-primary">
+                      Search
+                      <i class="fi-search fs-lg ms-2 me-n1"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="d-none d-md-block d-lg-none" style="height: 60px"></div>
+          <div class="d-none d-lg-block d-xxl-none" style="height: 90px"></div>
+          <div class="d-none d-xxl-block" style="height: 130px"></div>
+        </div>
+
+        <!-- Background images -->
+        <span class="position-absolute top-0 start-0 w-100 h-100 bg-body-tertiary d-md-none"></span>
+        <div class="position-absolute top-0 start-0 w-100 h-100 overflow-hidden mt-xxl-4 d-none d-md-block">
+          <div class="position-absolute top-0 start-50 translate-middle-x d-flex gap-4" style="width: 1560px">
+            <div style="width: 768px">
+              <div class="d-xl-none" style="height: 295px"></div>
+              <div class="d-none d-xl-block d-xxl-none" style="height: 326px"></div>
+              <div class="d-none d-xxl-block" style="height: 366px"></div>
+              <div class="position-relative overflow-hidden">
+                <div class="position-absolute top-0 z-1 fw-bold" style="right: 0; margin: -75px 96px 0 0; font-size: 128px; color: var(--fn-body-bg)">Buy</div>
+                <div class="ratio bg-body-tertiary rounded overflow-hidden" style="--fn-aspect-ratio: calc(328 / 768 * 100%)">
+                  <img src="assets/img/home/real-estate/hero/01.jpg" alt="Image">
+                </div>
+              </div>
+            </div>
+            <div style="width: 306px">
+              <div class="position-relative overflow-hidden">
+                <div class="position-absolute top-0 z-1 fw-bold" style="left: 0; margin: -10px 0 0 -69px; font-size: 128px; color: var(--fn-body-bg); writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(-180deg)">Sell</div>
+                <div class="ratio bg-info rounded overflow-hidden" style="--fn-aspect-ratio: calc(443 / 306 * 100%)">
+                  <img src="assets/img/home/real-estate/hero/02.png" alt="Image">
+                </div>
+              </div>
+            </div>
+            <div style="width: 438px">
+              <div style="height: 117px"></div>
+              <div class="position-relative overflow-hidden">
+                <div class="position-absolute top-0 z-1 fw-bold" style="left: 0; margin: -73px 0 0 -18px; font-size: 128px; color: var(--fn-body-bg)">Rent</div>
+                <div class="ratio bg-body-tertiary rounded overflow-hidden" style="--fn-aspect-ratio: calc(446 / 438 * 100%)">
+                  <img src="assets/img/home/real-estate/hero/03.jpg" alt="Image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Categories -->
+      <section class="container pt-2 pt-sm-3 pt-md-4 pt-lg-5 my-xxl-3">
+        <div class="py-5">
+          <div class="border rounded py-3 py-xl-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-xl-6 g-0 py-2">
+              <div class="col d-flex position-relative py-2">
+                <div class="vstack align-items-center text-center py-2 px-3">
+                  <h3 class="h5 mb-2">
+                    <a class="hover-effect-underline stretched-link" href="#">Houses</a>
+                  </h3>
+                  <div class="d-flex align-items-center gap-1 fs-sm">
+                    <i class="fi-bookmark fs-base"></i>
+                    6.4K offers
+                  </div>
+                </div>
+                <hr class="vr m-0">
+              </div>
+              <div class="col d-flex position-relative py-2">
+                <div class="vstack align-items-center text-center py-2 px-3">
+                  <h3 class="h5 mb-2">
+                    <a class="hover-effect-underline stretched-link" href="#">Apartments</a>
+                  </h3>
+                  <div class="d-flex align-items-center gap-1 fs-sm">
+                    <i class="fi-bookmark fs-base"></i>
+                    12.8K offers
+                  </div>
+                </div>
+                <hr class="vr d-none d-md-block m-0">
+              </div>
+              <div class="col d-flex position-relative py-2">
+                <div class="vstack align-items-center text-center py-2 px-3">
+                  <h3 class="h5 mb-2">
+                    <a class="hover-effect-underline stretched-link" href="#">Commercial</a>
+                  </h3>
+                  <div class="d-flex align-items-center gap-1 fs-sm">
+                    <i class="fi-bookmark fs-base"></i>
+                    9.3K offers
+                  </div>
+                </div>
+                <hr class="vr d-md-none d-xl-block m-0">
+              </div>
+              <div class="col d-flex position-relative py-2">
+                <div class="vstack align-items-center text-center py-2 px-3">
+                  <h3 class="h5 mb-2">
+                    <a class="hover-effect-underline stretched-link" href="#">Daily rental</a>
+                  </h3>
+                  <div class="d-flex align-items-center gap-1 fs-sm">
+                    <i class="fi-bookmark fs-base"></i>
+                    42.4K offers
+                  </div>
+                </div>
+                <hr class="vr d-none d-md-block m-0">
+              </div>
+              <div class="col d-flex position-relative py-2">
+                <div class="vstack align-items-center text-center py-2 px-3">
+                  <h3 class="h5 mb-2">
+                    <a class="hover-effect-underline stretched-link" href="#">New buildings</a>
+                  </h3>
+                  <div class="d-flex align-items-center gap-1 fs-sm">
+                    <i class="fi-bookmark fs-base"></i>
+                    22.5K offers
+                  </div>
+                </div>
+                <hr class="vr m-0">
+              </div>
+              <div class="col d-flex position-relative py-2">
+                <div class="vstack dropdown align-items-center text-center py-2 px-3" data-bs-toggle="dropdown" data-bs-display="static">
+                  <h3 class="h5 mb-2">
+                    <a class="hover-effect-underline stretched-link" href="#">More</a>
+                  </h3>
+                  <div class="d-flex align-items-center fs-sm text-body-emphasis">
+                    <i class="fi-chevron-down fs-xl"></i>
+                  </div>
+                  <ul class="dropdown-menu top-100 start-50 translate-middle-x" style="--fn-dropdown-min-width: 11rem">
+                    <li><a class="dropdown-item" href="#">Offices</a></li>
+                    <li><a class="dropdown-item" href="#">Warehouses</a></li>
+                    <li><a class="dropdown-item" href="#">Retail spaces</a></li>
+                    <li><a class="dropdown-item" href="#">Townhouses</a></li>
+                    <li><a class="dropdown-item" href="#">Vacation homes</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Action cards -->
+      <section class="container pt-2 pt-sm-3 pt-md-4 pt-lg-5 my-xxl-3">
+
+        <!-- Row of cards that turns into carousel on screens < 768px wide (md breakpoint) -->
+        <div class="swiper pb-5" data-swiper="{
+          &quot;slidesPerView&quot;: 1,
+          &quot;spaceBetween&quot;: 24,
+          &quot;pagination&quot;: {
+            &quot;el&quot;: &quot;.swiper-pagination&quot;,
+            &quot;clickable&quot;: true
+          },
+          &quot;breakpoints&quot;: {
+            &quot;500&quot;: {
+              &quot;slidesPerView&quot;: 2
+            },
+            &quot;768&quot;: {
+              &quot;slidesPerView&quot;: 3
+            }
+          }
+        }">
+          <div class="swiper-wrapper">
+
+            <!-- Buy card -->
+            <div class="swiper-slide wow bounceInUp">
+              <article class="card hover-effect-scale bg-primary-subtle border-0 overflow-hidden text-center">
+                <div class="card-body pt-sm-5 pb-3">
+                  <svg class="text-dark-emphasis my-3 mt-sm-0" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"><path d="M43.777.231H3.73C1.673.231 0 1.905 0 3.961v22.548c0 2.057 1.673 3.73 3.73 3.73h9.225a.941.941 0 1 0 0-1.882H3.73a1.85 1.85 0 0 1-1.847-1.847V3.961A1.85 1.85 0 0 1 3.73 2.114h40.048a1.85 1.85 0 0 1 1.847 1.847v22.548a1.85 1.85 0 0 1-1.847 1.847h-2.826a.941.941 0 1 0 0 1.882h2.826c2.057 0 3.73-1.673 3.73-3.73V3.961c0-2.056-1.673-3.73-3.73-3.73zm4.22 34.579a1.81 1.81 0 0 0-1.185-1.647h0l-15.567-5.775a2.81 2.81 0 0 0-3.653 3.653l5.761 15.541a1.81 1.81 0 0 0 1.655 1.186l.052.001a1.81 1.81 0 0 0 1.666-1.093l1.593-3.658 3.455 3.456c.983.984 2.584.984 3.567.001l1.333-1.332c.476-.476.739-1.11.739-1.784a2.51 2.51 0 0 0-.738-1.784l-3.411-3.412 3.658-1.633a1.81 1.81 0 0 0 1.077-1.72zm-6.751 2.191a.94.94 0 0 0-.282 1.525l4.378 4.379a.64.64 0 0 1 0 .905l-1.333 1.332c-.121.121-.282.187-.452.187h0a.64.64 0 0 1-.453-.187l-4.431-4.433a.94.94 0 0 0-1.529.29l-2.082 4.781-5.706-15.394c-.198-.535.119-.91.221-1.012.079-.079.319-.285.67-.285a.98.98 0 0 1 .342.064l15.422 5.721-4.765 2.127zm4.911-2.073l.327-.883-.327.883zm-19.352-9.664l-2.659-2.66a.941.941 0 1 0-1.331 1.331l2.66 2.66a.94.94 0 1 0 1.331-1.331zm-2.606 3.1h-3.761a.941.941 0 1 0 0 1.882h3.761a.941.941 0 1 0 0-1.882zm5.398-9.161a.94.94 0 0 0-.941.941v3.761a.941.941 0 1 0 1.882 0v-3.761a.94.94 0 0 0-.941-.941zm7.9 1.748a.94.94 0 0 0-1.331 0l-2.66 2.66a.94.94 0 1 0 1.332 1.331l2.66-2.66a.94.94 0 0 0 0-1.331zM25.716 32.736a.94.94 0 0 0-1.331 0l-2.66 2.66a.94.94 0 1 0 1.331 1.331l2.66-2.66a.94.94 0 0 0 0-1.331zm-9.026-2.495c.521 0 .944-.423.944-.944s-.423-.944-.944-.944-.944.423-.944.944.423.944.944.944zm-.166-16.121c.825-.358 1.323-1.198 1.323-2.475 0-2.21-1.51-2.739-3.128-2.739h-3.004c-.451 0-.887.218-.887.638V19.66c0 .327.342.623.887.623h3.299c1.759 0 3.112-.872 3.112-3.299v-.327c0-1.556-.654-2.163-1.603-2.537zm-3.688-3.439h1.727c.794 0 1.261.498 1.261 1.307 0 .794-.405 1.338-1.245 1.338h-1.743v-2.645zm3.268 6.132c0 1.183-.56 1.696-1.51 1.696h-1.758v-3.595h1.758c.949 0 1.51.436 1.51 1.65v.249zm9.882-7.906c-.514 0-1.012.187-1.012.623v7.283c0 1.214-.638 1.79-1.712 1.79s-1.712-.576-1.712-1.79V9.529c0-.436-.514-.623-1.012-.623-.514 0-1.012.187-1.012.623v7.283c0 2.599 1.634 3.564 3.735 3.564 2.085 0 3.735-.965 3.735-3.564V9.529c0-.436-.514-.623-1.011-.623zm9.352 0c-.327 0-.467.14-.607.405L32.35 13.81l-2.366-4.498c-.14-.28-.296-.405-.623-.405-.545 0-1.338.342-1.338.84a.61.61 0 0 0 .047.202l3.221 5.571a.39.39 0 0 1 .047.202v3.922c0 .42.514.638 1.012.638.514 0 1.012-.218 1.012-.638v-3.922a.39.39 0 0 1 .062-.202l3.206-5.571c.047-.078.047-.156.047-.202 0-.498-.794-.84-1.338-.84z"></path></svg>
+                  <h3 class="h5 mb-0">Buy a property</h3>
+                </div>
+                <div class="card-footer d-flex flex-column align-items-center gap-4 gap-sm-5 bg-transparent border-0 p-0">
+                  <a class="btn btn-dark stretched-link mx-4" href="#">Find a home</a>
+                  <div class="ratio hover-effect-target mt-3 mt-sm-0" style="--fn-aspect-ratio: calc(216 / 416 * 100%)">
+                    <img src="assets/img/home/real-estate/categories/01.png" alt="Image">
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Sell card -->
+            <div class="swiper-slide wow bounceInUp" data-wow-delay="0.5s">
+              <article class="card hover-effect-scale bg-info border-0 overflow-hidden text-center">
+                <div class="card-body pt-sm-5 pb-3">
+                  <svg class="text-white my-3 mt-sm-0" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"><path d="M27.216 18.697c-2.198 0-3.986 1.752-3.986 3.905s1.788 3.905 3.986 3.905 3.986-1.752 3.986-3.905-1.788-3.905-3.986-3.905zm0 5.972c-1.164 0-2.111-.928-2.111-2.068s.947-2.068 2.111-2.068 2.111.928 2.111 2.068-.947 2.068-2.111 2.068zm17.328 2.772l3.182-3.117c.366-.359.366-.94 0-1.299l-5.337-5.228V8.664c0-.507-.42-.918-.937-.918h-5.25c-.518 0-.937.411-.937.918v2.153L29.47 5.142a3.24 3.24 0 0 0-4.508 0L21.8 8.239c-1.194-4.72-5.555-8.23-10.738-8.23a11.22 11.22 0 0 0-3.958.714c-.483.182-.725.713-.54 1.186s.728.71 1.211.529a9.32 9.32 0 0 1 3.287-.593c5.066 0 9.188 4.038 9.188 9s-4.121 9-9.187 9-9.188-4.037-9.188-9a8.8 8.8 0 0 1 .605-3.219c.185-.474-.057-1.005-.54-1.186s-1.026.056-1.211.53C.245 8.206 0 9.51 0 10.846c0 5.077 3.583 9.349 8.401 10.519l-1.694 1.659c-.366.359-.366.94 0 1.299l3.182 3.117a.94.94 0 0 0 .452.245v13.833H8.654c-.518 0-.937.411-.937.918v3.674c0 .507.42.918.937.918h37.125c.518 0 .938-.411.938-.918v-3.674c0-.507-.42-.918-.937-.918h-1.687V27.685a.93.93 0 0 0 .452-.245zM37.139 9.583h3.375v6.378l-3.375-3.306V9.583zM26.288 6.44a1.32 1.32 0 0 1 .928-.377 1.32 1.32 0 0 1 .928.377l17.592 17.234-1.856 1.818L27.879 9.817a.95.95 0 0 0-1.326 0l-5.263 5.155a10.59 10.59 0 0 0 .834-4.127 10.75 10.75 0 0 0-.005-.322l4.169-4.084zM8.696 23.674l2.038-1.996.329.005a11.2 11.2 0 0 0 4.213-.817l-4.723 4.627-1.856-1.818zm36.145 21.518H9.591v-1.837h35.25v1.837zm-14.062-3.674h-7.125V30.682h7.125v10.837zm1.875 0V29.763c0-.507-.42-.918-.937-.918h-9c-.518 0-.937.411-.937.918v11.755h-9.562V26.46l15-14.694 15 14.694v15.059h-9.562zM11.019 13.897c-.801.006-1.03-.03-1.637-.419a.95.95 0 0 0-1.298.266c-.283.425-.162.994.271 1.271.677.434 1.179.614 1.783.682v.286c0 .507.42.918.938.918s.938-.411.938-.918v-.402a3.2 3.2 0 0 0 2.165-2.471c.242-1.413-.539-2.689-1.946-3.176-.753-.261-1.585-.575-2.046-.929-.119-.091-.17-.321-.124-.558.024-.123.134-.536.559-.661.793-.233 1.507.264 1.514.269a.95.95 0 0 0 1.309-.19c.306-.403.218-.976-.186-1.281-.266-.194-.708-.43-1.245-.57v-.306c0-.507-.42-.918-.937-.918s-.937.411-.937.918v.303l-.057.016c-.956.281-1.669 1.078-1.862 2.079-.178.925.132 1.823.81 2.344.672.517 1.637.89 2.578 1.216.753.261.775.826.721 1.14a1.31 1.31 0 0 1-1.311 1.092zM3.904 4.75c.518 0 .938-.411.938-.918s-.42-.918-.937-.918-.937.411-.937.918.42.918.938.918z"></path></svg>
+                  <h3 class="h5 text-white mb-0">Sell a property</h3>
+                </div>
+                <div class="card-footer d-flex flex-column align-items-center gap-4 gap-sm-5 bg-transparent border-0 p-0">
+                  <a class="btn btn-dark stretched-link mx-4" href="#">Place an ad</a>
+                  <div class="ratio hover-effect-target mt-3 mt-sm-0" style="--fn-aspect-ratio: calc(216 / 416 * 100%)">
+                    <img src="assets/img/home/real-estate/categories/02.png" alt="Image">
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Rent card -->
+            <div class="swiper-slide wow bounceInUp" data-wow-delay="1s">
+              <article class="card hover-effect-scale bg-warning-subtle border-0 overflow-hidden text-center">
+                <div class="card-body pt-sm-5 pb-3">
+                  <svg class="text-dark-emphasis my-3 mt-sm-0" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"><path d="M5.208 44.81h37.691A5.09 5.09 0 0 0 48 39.682V26.689c0-2.842-2.258-5.181-5.101-5.181h-1.573L27.491 8.564a3.77 3.77 0 0 0 .375-1.64c-.001-2.105-1.709-3.811-3.815-3.81s-3.811 1.709-3.81 3.815c0 .566.128 1.125.375 1.634L6.781 21.508H5.208C2.366 21.508 0 23.847 0 26.689v12.993c0 2.842 2.366 5.128 5.208 5.128zM24.054 4.837c1.157 0 2.094.938 2.094 2.094s-.937 2.094-2.094 2.094-2.094-.937-2.094-2.094.938-2.093 2.094-2.094zm-2.359 5.072a3.77 3.77 0 0 0 4.719-.003l12.399 11.603H9.295L21.694 9.908zm24.588 29.747c0 1.898-1.539 3.436-3.436 3.436H5.154c-1.898 0-3.436-1.539-3.436-3.436V26.662c0-1.898 1.539-3.436 3.436-3.436h37.691c1.898 0 3.436 1.539 3.436 3.436v12.993zm-34.954-2.639c.419 0 .805-.172.805-.516v-2.537h.763l1.471 2.831a.56.56 0 0 0 .537.299c.494 0 1.052-.457 1.052-.876.001-.069-.018-.138-.054-.196l-1.31-2.375c.752-.29 1.3-.995 1.3-2.198 0-1.75-1.17-2.316-2.642-2.316h-2.223a.52.52 0 0 0-.505.54v6.829c0 .344.387.516.805.516zm.805-6.381h1.117c.601 0 .966.268.966 1.02s-.365 1.02-.966 1.02h-1.117v-2.04zm6.453 6.335h3.823c.354 0 .505-.343.505-.687 0-.397-.183-.709-.505-.709h-2.867v-1.826h1.6c.354 0 .505-.344.505-.633 0-.344-.183-.655-.505-.655h-1.6v-1.826h2.867c.322 0 .505-.365.505-.762 0-.344-.15-.741-.505-.741h-3.823c-.365 0-.763.206-.763.55v6.819c0 .344.397.47.763.47zm6.971.045c.419 0 .859-.172.859-.516v-3.65l2.029 3.716c.204.376.526.451.913.451.419 0 .816-.172.816-.516v-6.829c0-.354-.387-.505-.805-.505s-.805.151-.805.505v3.651l-1.756-3.318c-.408-.784-.652-.838-1.253-.838-.419 0-.857.161-.857.515v6.819c0 .343.441.516.859.516zm6.892-6.381h1.482v5.866c0 .344.44.516.859.516s.859-.172.859-.516v-5.866h1.439c.322 0 .505-.355.505-.762 0-.354-.151-.741-.505-.741H32.45c-.354 0-.505.387-.505.741 0 .408.183.762.505.762z"></path></svg>
+                  <h3 class="h5 mb-0">Rent a property</h3>
+                </div>
+                <div class="card-footer d-flex flex-column align-items-center gap-4 gap-sm-5 bg-transparent border-0 p-0">
+                  <a class="btn btn-dark stretched-link mx-4" href="#">Find a rental</a>
+                  <div class="ratio hover-effect-target mt-3 mt-sm-0" style="--fn-aspect-ratio: calc(216 / 416 * 100%)">
+                    <img src="assets/img/home/real-estate/categories/03.png" alt="Image">
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Pagination (Bullets) -->
+          <div class="swiper-pagination position-static mt-3 mt-sm-4"></div>
+        </div>
+      </section>
+
+
+      <!-- Top offers -->
+      <section class="container pt-2 pb-sm-2 pt-sm-3 py-md-4 py-lg-5 mt-xxl-3 mb-xxl-2">
+        <div class="d-flex align-items-center justify-content-between gap-4 pb-3 mb-2 mb-sm-3 mb-lg-4">
+          <h2 class="h1 mb-0">Top offers</h2>
+
+          <!-- Prev/next buttons -->
+          <div class="d-flex gap-2">
+            <button type="button" class="btn btn-icon btn-outline-secondary animate-slide-start bg-body rounded-circle me-1" id="offers-prev" aria-label="Prev">
+              <i class="fi-chevron-left fs-lg animate-target"></i>
+            </button>
+            <button type="button" class="btn btn-icon btn-outline-secondary animate-slide-end bg-body rounded-circle" id="offers-next" aria-label="Next">
+              <i class="fi-chevron-right fs-lg animate-target"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Carousel --> 
+        <div class="swiper pb-5"  data-swiper="{
+          &quot;slidesPerView&quot;: 1,
+          &quot;spaceBetween&quot;: 24,
+          &quot;loop&quot;: true,
+          &quot;navigation&quot;: {
+            &quot;prevEl&quot;: &quot;#offers-prev&quot;,
+            &quot;nextEl&quot;: &quot;#offers-next&quot;
+          },
+          &quot;pagination&quot;: {
+            &quot;el&quot;: &quot;.swiper-pagination&quot;,
+            &quot;clickable&quot;: true
+          },
+          &quot;breakpoints&quot;: {
+            &quot;460&quot;: {
+              &quot;slidesPerView&quot;: 2
+            },
+            &quot;768&quot;: {
+              &quot;slidesPerView&quot;: 3
+            },
+            &quot;992&quot;: {
+              &quot;slidesPerView&quot;: 4
+            }
+          }
+        }" >
+          <div class="swiper-wrapper" >
+
+            <!-- Listing -->
+            <div class="swiper-slide h-auto">
+              <article class="card hover-effect-opacity h-100">
+                <div class="card-img-top position-relative bg-body-tertiary overflow-hidden">
+                  <div class="swiper z-2" data-swiper="{
+                    &quot;pagination&quot;: {
+                      &quot;el&quot;: &quot;.swiper-pagination&quot;
+                    },
+                    &quot;navigation&quot;: {
+                      &quot;prevEl&quot;: &quot;.btn-prev&quot;,
+                      &quot;nextEl&quot;: &quot;.btn-next&quot;
+                    },
+                    &quot;breakpoints&quot;: {
+                      &quot;991&quot;: {
+                        &quot;allowTouchMove&quot;: false
+                      }
+                    }
+                  }">
+                    <a class="swiper-wrapper" href="#">
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="assets/img/listings/real-estate/01.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="assets/img/listings/real-estate/01.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="assets/img/listings/real-estate/01.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="d-flex flex-column gap-2 align-items-start position-absolute top-0 start-0 z-1 pt-1 pt-sm-0 ps-1 ps-sm-0 mt-2 mt-sm-3 ms-2 ms-sm-3">
+                      <span class="badge text-bg-info d-inline-flex align-items-center">
+                        Verified
+                        <i class="fi-shield ms-1"></i>
+                      </span>
+                      <span class="badge text-bg-primary">New</span>
+                    </div>
+                    <div class="position-absolute top-0 end-0 z-1 hover-effect-target opacity-0 pt-1 pt-sm-0 pe-1 pe-sm-0 mt-2 mt-sm-3 me-2 me-sm-3">
+                      <button type="button" class="btn btn-sm btn-icon btn-light bg-light border-0 rounded-circle animate-pulse" aria-label="Add to wishlist">
+                        <i class="fi-heart animate-target fs-sm"></i>
+                      </button>
+                    </div>
+                    <div class="position-absolute top-50 start-0 z-1 translate-middle-y d-none d-lg-block hover-effect-target opacity-0 ms-3">
+                      <button type="button" class="btn btn-sm btn-prev btn-icon btn-light bg-light rounded-circle animate-slide-start" aria-label="Prev">
+                        <i class="fi-chevron-left fs-lg animate-target"></i>
+                      </button>
+                    </div>
+                    <div class="position-absolute top-50 end-0 z-1 translate-middle-y d-none d-lg-block hover-effect-target opacity-0 me-3">
+                      <button type="button" class="btn btn-sm btn-next btn-icon btn-light bg-light rounded-circle animate-slide-end" aria-label="Next">
+                        <i class="fi-chevron-right fs-lg animate-target"></i>
+                      </button>
+                    </div>
+                    <div class="swiper-pagination bottom-0 mb-2" data-bs-theme="light"></div>
+                  </div>
+                </div>
+                <div class="card-body p-3">
+                  <div class="pb-1 mb-2">
+                    <span class="badge text-body-emphasis bg-body-secondary">For rent</span>
+                  </div>
+                  <div class="h5 mb-2">$1,620</div>
+                  <h3 class="fs-sm fw-normal text-body mb-2">
+                    <a class="stretched-link text-body" href="#">40 S 9th St, Brooklyn, NY 11249</a>
+                  </h3>
+                  <div class="h6 fs-sm mb-0">65 sq.m</div>
+                </div>
+                <div class="card-footer d-flex gap-2 border-0 bg-transparent pt-0 pb-3 px-3 mt-n1">
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    2<i class="fi-bed-single fs-base text-secondary-emphasis"></i>
+                  </div>
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    1<i class="fi-shower fs-base text-secondary-emphasis"></i>
+                  </div>
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    1<i class="fi-car-garage fs-base text-secondary-emphasis"></i>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Listing -->
+            <div class="swiper-slide h-auto">
+              <article class="card hover-effect-opacity h-100">
+                <div class="card-img-top position-relative bg-body-tertiary overflow-hidden">
+                  <div class="swiper z-2" data-swiper="{
+                    &quot;pagination&quot;: {
+                      &quot;el&quot;: &quot;.swiper-pagination&quot;
+                    },
+                    &quot;navigation&quot;: {
+                      &quot;prevEl&quot;: &quot;.btn-prev&quot;,
+                      &quot;nextEl&quot;: &quot;.btn-next&quot;
+                    },
+                    &quot;breakpoints&quot;: {
+                      &quot;991&quot;: {
+                        &quot;allowTouchMove&quot;: false
+                      }
+                    }
+                  }">
+                    <a class="swiper-wrapper" href="#">
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="../assets/img/listings/real-estate/04.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="../assets/img/listings/real-estate/04.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="../assets/img/listings/real-estate/04.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="d-flex flex-column gap-2 align-items-start position-absolute top-0 start-0 z-1 pt-1 pt-sm-0 ps-1 ps-sm-0 mt-2 mt-sm-3 ms-2 ms-sm-3">
+                      <span class="badge text-bg-primary">New</span>
+                    </div>
+                    <div class="position-absolute top-0 end-0 z-1 hover-effect-target opacity-0 pt-1 pt-sm-0 pe-1 pe-sm-0 mt-2 mt-sm-3 me-2 me-sm-3">
+                      <button type="button" class="btn btn-sm btn-icon btn-light bg-light border-0 rounded-circle animate-pulse" aria-label="Add to wishlist">
+                        <i class="fi-heart animate-target fs-sm"></i>
+                      </button>
+                    </div>
+                    <div class="position-absolute top-50 start-0 z-1 translate-middle-y d-none d-lg-block hover-effect-target opacity-0 ms-3">
+                      <button type="button" class="btn btn-sm btn-prev btn-icon btn-light bg-light rounded-circle animate-slide-start" aria-label="Prev">
+                        <i class="fi-chevron-left fs-lg animate-target"></i>
+                      </button>
+                    </div>
+                    <div class="position-absolute top-50 end-0 z-1 translate-middle-y d-none d-lg-block hover-effect-target opacity-0 me-3">
+                      <button type="button" class="btn btn-sm btn-next btn-icon btn-light bg-light rounded-circle animate-slide-end" aria-label="Next">
+                        <i class="fi-chevron-right fs-lg animate-target"></i>
+                      </button>
+                    </div>
+                    <div class="swiper-pagination bottom-0 mb-2" data-bs-theme="light"></div>
+                  </div>
+                </div>
+                <div class="card-body p-3">
+                  <div class="pb-1 mb-2">
+                    <span class="badge text-body-emphasis bg-body-secondary">For rent</span>
+                  </div>
+                  <div class="h5 mb-2">$1,170</div>
+                  <h3 class="fs-sm fw-normal text-body mb-2">
+                    <a class="stretched-link text-body" href="#">67-04 Myrtle Ave Glendale, NY 11385</a>
+                  </h3>
+                  <div class="h6 fs-sm mb-0">42 sq.m</div>
+                </div>
+                <div class="card-footer d-flex gap-2 border-0 bg-transparent pt-0 pb-3 px-3 mt-n1">
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    1<i class="fi-bed-single fs-base text-secondary-emphasis"></i>
+                  </div>
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    1<i class="fi-shower fs-base text-secondary-emphasis"></i>
+                  </div>
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    0<i class="fi-car-garage fs-base text-secondary-emphasis"></i>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Listing -->
+            <div class="swiper-slide h-auto">
+              <article class="card hover-effect-opacity h-100">
+                <div class="card-img-top position-relative bg-body-tertiary overflow-hidden">
+                  <div class="swiper z-2" data-swiper="{
+                    &quot;pagination&quot;: {
+                      &quot;el&quot;: &quot;.swiper-pagination&quot;
+                    },
+                    &quot;navigation&quot;: {
+                      &quot;prevEl&quot;: &quot;.btn-prev&quot;,
+                      &quot;nextEl&quot;: &quot;.btn-next&quot;
+                    },
+                    &quot;breakpoints&quot;: {
+                      &quot;991&quot;: {
+                        &quot;allowTouchMove&quot;: false
+                      }
+                    }
+                  }">
+                    <a class="swiper-wrapper" href="#">
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="assets/img/listings/real-estate/06.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="assets/img/listings/real-estate/06.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="assets/img/listings/real-estate/06.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="d-flex flex-column gap-2 align-items-start position-absolute top-0 start-0 z-1 pt-1 pt-sm-0 ps-1 ps-sm-0 mt-2 mt-sm-3 ms-2 ms-sm-3">
+                      <span class="badge text-bg-info d-inline-flex align-items-center">
+                        Verified
+                        <i class="fi-shield ms-1"></i>
+                      </span>
+                      <span class="badge text-bg-primary">New</span>
+                    </div>
+                    <div class="position-absolute top-0 end-0 z-1 hover-effect-target opacity-0 pt-1 pt-sm-0 pe-1 pe-sm-0 mt-2 mt-sm-3 me-2 me-sm-3">
+                      <button type="button" class="btn btn-sm btn-icon btn-light bg-light border-0 rounded-circle animate-pulse" aria-label="Add to wishlist">
+                        <i class="fi-heart animate-target fs-sm"></i>
+                      </button>
+                    </div>
+                    <div class="position-absolute top-50 start-0 z-1 translate-middle-y d-none d-lg-block hover-effect-target opacity-0 ms-3">
+                      <button type="button" class="btn btn-sm btn-prev btn-icon btn-light bg-light rounded-circle animate-slide-start" aria-label="Prev">
+                        <i class="fi-chevron-left fs-lg animate-target"></i>
+                      </button>
+                    </div>
+                    <div class="position-absolute top-50 end-0 z-1 translate-middle-y d-none d-lg-block hover-effect-target opacity-0 me-3">
+                      <button type="button" class="btn btn-sm btn-next btn-icon btn-light bg-light rounded-circle animate-slide-end" aria-label="Next">
+                        <i class="fi-chevron-right fs-lg animate-target"></i>
+                      </button>
+                    </div>
+                    <div class="swiper-pagination bottom-0 mb-2" data-bs-theme="light"></div>
+                  </div>
+                </div>
+                <div class="card-body p-3">
+                  <div class="pb-1 mb-2">
+                    <span class="badge text-body-emphasis bg-body-secondary">For sale</span>
+                  </div>
+                  <div class="h5 mb-2">$475,000</div>
+                  <h3 class="fs-sm fw-normal text-body mb-2">
+                    <a class="stretched-link text-body" href="#">929 Hart St, Brooklyn, NY 11237</a>
+                  </h3>
+                  <div class="h6 fs-sm mb-0">108 sq.m</div>
+                </div>
+                <div class="card-footer d-flex gap-2 border-0 bg-transparent pt-0 pb-3 px-3 mt-n1">
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    3<i class="fi-bed-single fs-base text-secondary-emphasis"></i>
+                  </div>
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    2<i class="fi-shower fs-base text-secondary-emphasis"></i>
+                  </div>
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    1<i class="fi-car-garage fs-base text-secondary-emphasis"></i>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Listing -->
+            <div class="swiper-slide h-auto">
+              <article class="card hover-effect-opacity h-100">
+                <div class="card-img-top position-relative bg-body-tertiary overflow-hidden">
+                  <div class="swiper z-2" data-swiper="{
+                    &quot;pagination&quot;: {
+                      &quot;el&quot;: &quot;.swiper-pagination&quot;
+                    },
+                    &quot;navigation&quot;: {
+                      &quot;prevEl&quot;: &quot;.btn-prev&quot;,
+                      &quot;nextEl&quot;: &quot;.btn-next&quot;
+                    },
+                    &quot;breakpoints&quot;: {
+                      &quot;991&quot;: {
+                        &quot;allowTouchMove&quot;: false
+                      }
+                    }
+                  }">
+                    <a class="swiper-wrapper" href="#">
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="../assets/img/listings/real-estate/07.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="../assets/img/listings/real-estate/07.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="../assets/img/listings/real-estate/07.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="d-flex flex-column gap-2 align-items-start position-absolute top-0 start-0 z-1 pt-1 pt-sm-0 ps-1 ps-sm-0 mt-2 mt-sm-3 ms-2 ms-sm-3">
+                      <span class="badge text-bg-info d-inline-flex align-items-center">
+                        Verified
+                        <i class="fi-shield ms-1"></i>
+                      </span>
+                    </div>
+                    <div class="position-absolute top-0 end-0 z-1 hover-effect-target opacity-0 pt-1 pt-sm-0 pe-1 pe-sm-0 mt-2 mt-sm-3 me-2 me-sm-3">
+                      <button type="button" class="btn btn-sm btn-icon btn-light bg-light border-0 rounded-circle animate-pulse" aria-label="Add to wishlist">
+                        <i class="fi-heart animate-target fs-sm"></i>
+                      </button>
+                    </div>
+                    <div class="position-absolute top-50 start-0 z-1 translate-middle-y d-none d-lg-block hover-effect-target opacity-0 ms-3">
+                      <button type="button" class="btn btn-sm btn-prev btn-icon btn-light bg-light rounded-circle animate-slide-start" aria-label="Prev">
+                        <i class="fi-chevron-left fs-lg animate-target"></i>
+                      </button>
+                    </div>
+                    <div class="position-absolute top-50 end-0 z-1 translate-middle-y d-none d-lg-block hover-effect-target opacity-0 me-3">
+                      <button type="button" class="btn btn-sm btn-next btn-icon btn-light bg-light rounded-circle animate-slide-end" aria-label="Next">
+                        <i class="fi-chevron-right fs-lg animate-target"></i>
+                      </button>
+                    </div>
+                    <div class="swiper-pagination bottom-0 mb-2" data-bs-theme="light"></div>
+                  </div>
+                </div>
+                <div class="card-body p-3">
+                  <div class="pb-1 mb-2">
+                    <span class="badge text-body-emphasis bg-body-secondary">For rent</span>
+                  </div>
+                  <div class="h5 mb-2">$1,490</div>
+                  <h3 class="fs-sm fw-normal text-body mb-2">
+                    <a class="stretched-link text-body" href="#">123 Bedford Avenue, Brooklyn, NY 11211</a>
+                  </h3>
+                  <div class="h6 fs-sm mb-0">80 sq.m</div>
+                </div>
+                <div class="card-footer d-flex gap-2 border-0 bg-transparent pt-0 pb-3 px-3 mt-n1">
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    2<i class="fi-bed-single fs-base text-secondary-emphasis"></i>
+                  </div>
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    1<i class="fi-shower fs-base text-secondary-emphasis"></i>
+                  </div>
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    1<i class="fi-car-garage fs-base text-secondary-emphasis"></i>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Listing -->
+            <div class="swiper-slide h-auto">
+              <article class="card hover-effect-opacity h-100">
+                <div class="card-img-top position-relative bg-body-tertiary overflow-hidden">
+                  <div class="swiper z-2" data-swiper="{
+                    &quot;pagination&quot;: {
+                      &quot;el&quot;: &quot;.swiper-pagination&quot;
+                    },
+                    &quot;navigation&quot;: {
+                      &quot;prevEl&quot;: &quot;.btn-prev&quot;,
+                      &quot;nextEl&quot;: &quot;.btn-next&quot;
+                    },
+                    &quot;breakpoints&quot;: {
+                      &quot;991&quot;: {
+                        &quot;allowTouchMove&quot;: false
+                      }
+                    }
+                  }">
+                    <a class="swiper-wrapper" href="#">
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="../assets/img/listings/real-estate/02.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="../assets/img/listings/real-estate/02.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="ratio d-block" style="--fn-aspect-ratio: calc(248 / 362 * 100%)">
+                          <img src="../assets/img/listings/real-estate/02.jpg" alt="Image">
+                          <span class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background: linear-gradient(180deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, .11) 100%)"></span>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="d-flex flex-column gap-2 align-items-start position-absolute top-0 start-0 z-1 pt-1 pt-sm-0 ps-1 ps-sm-0 mt-2 mt-sm-3 ms-2 ms-sm-3">
+                      <span class="badge text-bg-primary">New</span>
+                    </div>
+                    <div class="position-absolute top-0 end-0 z-1 hover-effect-target opacity-0 pt-1 pt-sm-0 pe-1 pe-sm-0 mt-2 mt-sm-3 me-2 me-sm-3">
+                      <button type="button" class="btn btn-sm btn-icon btn-light bg-light border-0 rounded-circle animate-pulse" aria-label="Add to wishlist">
+                        <i class="fi-heart animate-target fs-sm"></i>
+                      </button>
+                    </div>
+                    <div class="position-absolute top-50 start-0 z-1 translate-middle-y d-none d-lg-block hover-effect-target opacity-0 ms-3">
+                      <button type="button" class="btn btn-sm btn-prev btn-icon btn-light bg-light rounded-circle animate-slide-start" aria-label="Prev">
+                        <i class="fi-chevron-left fs-lg animate-target"></i>
+                      </button>
+                    </div>
+                    <div class="position-absolute top-50 end-0 z-1 translate-middle-y d-none d-lg-block hover-effect-target opacity-0 me-3">
+                      <button type="button" class="btn btn-sm btn-next btn-icon btn-light bg-light rounded-circle animate-slide-end" aria-label="Next">
+                        <i class="fi-chevron-right fs-lg animate-target"></i>
+                      </button>
+                    </div>
+                    <div class="swiper-pagination bottom-0 mb-2" data-bs-theme="light"></div>
+                  </div>
+                </div>
+                <div class="card-body p-3">
+                  <div class="pb-1 mb-2">
+                    <span class="badge text-body-emphasis bg-body-secondary">For rent</span>
+                  </div>
+                  <div class="h5 mb-2">$1,320</div>
+                  <h3 class="fs-sm fw-normal text-body mb-2">
+                    <a class="stretched-link text-body" href="#">517 82nd St, Brooklyn, NY 11209</a>
+                  </h3>
+                  <div class="h6 fs-sm mb-0">45 sq.m</div>
+                </div>
+                <div class="card-footer d-flex gap-2 border-0 bg-transparent pt-0 pb-3 px-3 mt-n1">
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    1<i class="fi-bed-single fs-base text-secondary-emphasis"></i>
+                  </div>
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    1<i class="fi-shower fs-base text-secondary-emphasis"></i>
+                  </div>
+                  <div class="d-flex align-items-center fs-sm gap-1 me-1">
+                    0<i class="fi-car-garage fs-base text-secondary-emphasis"></i>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Pagination (Bullets) -->
+          <div class="swiper-pagination position-static pt-lg-1 mt-3 mt-sm-4"></div>
+        </div>
+      </section>
+
+
+      <!-- Recently added -->
+      <section class="position-relative pt-2 pt-sm-3 pt-md-4 pt-lg-5 pb-5 my-xxl-3">
+        <div class="container position-relative z-1 pt-5 mt-xxl-2">
+          <div class="d-md-flex align-items-start justify-content-between gap-4 mb-2 mb-sm-3 mb-lg-4">
+            <h2 class="h1">Added today</h2>
+            <div class="overflow-x-auto pb-3">
+              <ul class="nav nav-pills flex-nowrap gap-2 text-nowrap">
+                <li class="nav-item me-1">
+                  <a class="nav-link active" aria-current="page" href="#">Apartments</a>
+                </li>
+                <li class="nav-item me-1">
+                  <a class="nav-link" href="#">Houses</a>
+                </li>
+                <li class="nav-item me-1">
+                  <a class="nav-link" href="#">Rooms</a>
+                </li>
+                <li class="nav-item me-1">
+                  <a class="nav-link" href="#">Commercials</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 g-4 g-md-3 g-xl-4">
+            <div class="col">
+
+              <!-- Listing -->
+              <article class="hover-effect-scale position-relative bg-body-tertiary rounded overflow-hidden h-100 wow bounceInUp">
+                <div class="d-flex gap-2 position-absolute top-0 start-0 z-1 pt-3 ps-3 mt-lg-2 mt-xl-3 ms-lg-2 ms-xl-3">
+                  <span class="badge text-bg-info d-inline-flex align-items-center">
+                    Verified
+                    <i class="fi-shield ms-1"></i>
+                  </span>
+                  <span class="badge text-bg-warning">Featured</span>
+                </div>
+                <img src="assets/img/listings/real-estate/featured/01.jpg" class="hover-effect-target position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Image">
+                <div class="ratio d-none d-sm-block" style="--fn-aspect-ratio: calc(307 / 636 * 100%)"></div>
+                <div class="ratio d-sm-none" style="--fn-aspect-ratio: calc(410 / 636 * 100%)"></div>
+                <div class="position-absolute top-0 start-0 w-100 h-100 z-1 p-3">
+                  <div class="d-flex align-items-end h-100 p-lg-2 p-xl-3">
+                    <div class="d-flex flex-wrap align-items-center justify-content-between w-100 gap-3">
+                      <div class="mb-1 mb-sm-0">
+                        <h3 class="text-white d-flex flex-wrap align-items-center mb-1 mb-lg-2">3-bed apartment<span class="fs-6 fw-medium mx-2">|</span><span class="fs-6">127 sq.m</span></h3>
+                        <p class="fs-sm text-white mb-0">3811 Ditmars Blvd Astoria, NY 11105</p>
+                      </div>
+                      <a class="btn btn-primary stretched-link" href="#">From $3,850</a>
+                    </div>
+                  </div>
+                </div>
+                <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark d-sm-none" style="opacity: .4"></span>
+                <span class="position-absolute top-0 start-0 w-100 h-100 d-none d-sm-block" style="background: linear-gradient(0deg, rgba(64,64,64, .74) 10.5%, rgba(0,0,0, 0) 54.86%)"></span>
+              </article>
+            </div>
+            <div class="col vstack gap-4 gap-md-3 gap-xl-4">
+
+              <!-- Listing -->
+              <article class="hover-effect-scale position-relative bg-body-tertiary rounded overflow-hidden wow bounceInRight">
+                <div class="d-flex gap-2 position-absolute top-0 start-0 z-1 pt-3 ps-3 mt-lg-2 mt-xl-3 ms-lg-2 ms-xl-3">
+                  <span class="badge text-bg-warning">Featured</span>
+                </div>
+                <img src="assets/img/listings/real-estate/featured/02.jpg" class="hover-effect-target position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Image">
+                <div class="ratio d-none d-sm-block" style="--fn-aspect-ratio: calc(307 / 636 * 100%)"></div>
+                <div class="ratio d-sm-none" style="--fn-aspect-ratio: calc(410 / 636 * 100%)"></div>
+                <div class="position-absolute top-0 start-0 w-100 h-100 z-1 p-3">
+                  <div class="d-flex align-items-end h-100 p-lg-2 p-xl-3">
+                    <div class="d-flex flex-wrap align-items-center justify-content-between w-100 gap-3">
+                      <div class="mb-1 mb-sm-0">
+                        <h3 class="text-white d-flex flex-wrap align-items-center mb-1 mb-lg-2">2-bed apartment<span class="fs-6 fw-medium mx-2">|</span><span class="fs-6">78 sq.m</span></h3>
+                        <p class="fs-sm text-white mb-0">40 S 9th St, Brooklyn, NY 11249</p>
+                      </div>
+                      <a class="btn btn-primary stretched-link" href="#">From $2,600</a>
+                    </div>
+                  </div>
+                </div>
+                <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark d-sm-none" style="opacity: .4"></span>
+                <span class="position-absolute top-0 start-0 w-100 h-100 d-none d-sm-block" style="background: linear-gradient(0deg, rgba(64,64,64, .74) 10.5%, rgba(0,0,0, 0) 54.86%)"></span>
+              </article>
+
+              <!-- Listing -->
+              <article class="hover-effect-scale position-relative bg-body-tertiary rounded overflow-hidden wow bounceInRight">
+                <div class="d-flex gap-2 position-absolute top-0 start-0 z-1 pt-3 ps-3 mt-lg-2 mt-xl-3 ms-lg-2 ms-xl-3">
+                  <span class="badge text-bg-warning">Featured</span>
+                </div>
+                <img src="assets/img/listings/real-estate/featured/03.jpg" class="hover-effect-target position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Image">
+                <div class="ratio d-none d-sm-block" style="--fn-aspect-ratio: calc(307 / 636 * 100%)"></div>
+                <div class="ratio d-sm-none" style="--fn-aspect-ratio: calc(410 / 636 * 100%)"></div>
+                <div class="position-absolute top-0 start-0 w-100 h-100 z-1 p-3">
+                  <div class="d-flex align-items-end h-100 p-lg-2 p-xl-3">
+                    <div class="d-flex flex-wrap align-items-center justify-content-between w-100 gap-3">
+                      <div class="mb-1 mb-sm-0">
+                        <h3 class="text-white d-flex flex-wrap align-items-center mb-1 mb-lg-2">1-bed apartment<span class="fs-6 fw-medium mx-2">|</span><span class="fs-6">52 sq.m</span></h3>
+                        <p class="fs-sm text-white mb-0">444 Park Ave, Brooklyn, NY 11205</p>
+                      </div>
+                      <a class="btn btn-primary stretched-link" href="#">From $1,750</a>
+                    </div>
+                  </div>
+                </div>
+                <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark d-sm-none" style="opacity: .4"></span>
+                <span class="position-absolute top-0 start-0 w-100 h-100 d-none d-sm-block" style="background: linear-gradient(0deg, rgba(64,64,64, .74) 10.5%, rgba(0,0,0, 0) 54.86%)"></span>
+              </article>
+            </div>
+          </div>
+        </div>
+        <span class="position-absolute top-0 start-0 w-100 bg-body-tertiary" style="height: 81%"></span>
+      </section>
+
+
+      <!-- Property cost calculator -->
+      <section class="container pt-2 pt-sm-3 pt-md-4 pt-lg-5 pb-5 my-xxl-3">
+        <div class="bg-info rounded py-5 py-lg-4 px-4 px-sm-5 px-lg-0">
+          <div class="row align-items-center justify-content-center justify-content-lg-start py-lg-3">
+            <div class="col-10 col-sm-8 col-md-7 col-lg-5 offset-lg-1 pb-3 pb-lg-0 mb-3 mb-lg-0">
+              <div class="ratio mx-auto mx-lg-0 wow fadeIn" style="max-width: 479px; --fn-aspect-ratio: calc(300 / 479 * 100%)">
+                <img src="assets/img/home/real-estate/building.png" alt="Image">
+              </div>
+            </div>
+            <div class="col-lg-5 text-center text-lg-start py-lg-4">
+              <h2 class="text-white">Calculate your property's cost</h2>
+              <p class="fs-lg text-white opacity-75 pb-2 pb-sm-3">Real estate appraisal is a procedure that allows you to determine the average market value of real estate (apartment, house, land, etc.).</p>
+              <a class="btn btn-lg btn-primary" href="#!">Start now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Properties by city -->
+      <section class="container pt-2 pb-sm-2 pt-sm-3 py-md-4 py-lg-5 mt-xxl-3 mb-xxl-2">
+        <div class="d-flex align-items-center justify-content-between gap-4 pb-3 mb-2 mb-sm-3 mb-lg-4">
+          <h2 class="h1 mb-0">Search by city</h2>
+
+          <!-- Prev/next buttons -->
+          <div class="d-flex gap-2">
+            <button type="button" class="btn btn-icon btn-outline-secondary animate-slide-start bg-body rounded-circle me-1" id="city-prev" aria-label="Prev">
+              <i class="fi-chevron-left fs-lg animate-target"></i>
+            </button>
+            <button type="button" class="btn btn-icon btn-outline-secondary animate-slide-end bg-body rounded-circle" id="city-next" aria-label="Next">
+              <i class="fi-chevron-right fs-lg animate-target"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Carousel -->
+        <div class="swiper pb-5" data-swiper="{
+          &quot;slidesPerView&quot;: 1,
+          &quot;spaceBetween&quot;: 24,
+          &quot;loop&quot;: true,
+          &quot;navigation&quot;: {
+            &quot;prevEl&quot;: &quot;#city-prev&quot;,
+            &quot;nextEl&quot;: &quot;#city-next&quot;
+          },
+          &quot;pagination&quot;: {
+            &quot;el&quot;: &quot;.swiper-pagination&quot;,
+            &quot;clickable&quot;: true
+          },
+          &quot;breakpoints&quot;: {
+            &quot;460&quot;: {
+              &quot;slidesPerView&quot;: 2,
+              &quot;spaceBetween&quot;: 16
+            },
+            &quot;768&quot;: {
+              &quot;slidesPerView&quot;: 2,
+              &quot;spaceBetween&quot;: 24
+            },
+            &quot;860&quot;: {
+              &quot;slidesPerView&quot;: 3
+            },
+            &quot;1200&quot;: {
+              &quot;slidesPerView&quot;: 4
+            }
+          }
+        }">
+          <div class="swiper-wrapper">
+
+            <!-- City card -->
+            <div class="swiper-slide h-auto">
+              <article class="card h-100 hover-effect-scale bg-transparent">
+                <div class="card-img-top bg-body-tertiary overflow-hidden">
+                  <div class="ratio hover-effect-target" style="--fn-aspect-ratio: calc(230 / 306 * 100%)">
+                    <img src="assets/img/home/real-estate/cities/01.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="card-body text-center p-3">
+                  <h3 class="h5 mb-0">
+                    <a class="hover-effect-underline stretched-link" href="#">New York</a>
+                  </h3>
+                </div>
+                <div class="card-footer d-flex bg-transparent border-0 pt-0 pb-3 px-3 mt-n1">
+                  <div class="w-50 text-center pe-1">
+                    <i class="fi-zap mb-1"></i>
+                    <div class="fs-sm">for sale <span class="fw-semibold">1739</span></div>
+                  </div>
+                  <hr class="vr my-0 mx-2">
+                  <div class="w-50 text-center ps-1">
+                    <i class="fi-tag mb-1"></i>
+                    <div class="fs-sm">for rent <span class="fw-semibold">3845</span></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- City card -->
+            <div class="swiper-slide h-auto">
+              <article class="card h-100 hover-effect-scale bg-transparent">
+                <div class="card-img-top bg-body-tertiary overflow-hidden">
+                  <div class="ratio hover-effect-target" style="--fn-aspect-ratio: calc(230 / 306 * 100%)">
+                    <img src="assets/img/home/real-estate/cities/02.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="card-body text-center p-3">
+                  <h3 class="h5 mb-0">
+                    <a class="hover-effect-underline stretched-link" href="#">Dallas</a>
+                  </h3>
+                </div>
+                <div class="card-footer d-flex bg-transparent border-0 pt-0 pb-3 px-3 mt-n1">
+                  <div class="w-50 text-center pe-1">
+                    <i class="fi-zap mb-1"></i>
+                    <div class="fs-sm">for sale <span class="fw-semibold">986</span></div>
+                  </div>
+                  <hr class="vr my-0 mx-2">
+                  <div class="w-50 text-center ps-1">
+                    <i class="fi-tag mb-1"></i>
+                    <div class="fs-sm">for rent <span class="fw-semibold">2903</span></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- City card -->
+            <div class="swiper-slide h-auto">
+              <article class="card h-100 hover-effect-scale bg-transparent">
+                <div class="card-img-top bg-body-tertiary overflow-hidden">
+                  <div class="ratio hover-effect-target" style="--fn-aspect-ratio: calc(230 / 306 * 100%)">
+                    <img src="assets/img/home/real-estate/cities/03.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="card-body text-center p-3">
+                  <h3 class="h5 mb-0">
+                    <a class="hover-effect-underline stretched-link" href="#">San Francisco</a>
+                  </h3>
+                </div>
+                <div class="card-footer d-flex bg-transparent border-0 pt-0 pb-3 px-3 mt-n1">
+                  <div class="w-50 text-center pe-1">
+                    <i class="fi-zap mb-1"></i>
+                    <div class="fs-sm">for sale <span class="fw-semibold">2134</span></div>
+                  </div>
+                  <hr class="vr my-0 mx-2">
+                  <div class="w-50 text-center ps-1">
+                    <i class="fi-tag mb-1"></i>
+                    <div class="fs-sm">for rent <span class="fw-semibold">4561</span></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- City card -->
+            <div class="swiper-slide h-auto">
+              <article class="card h-100 hover-effect-scale bg-transparent">
+                <div class="card-img-top bg-body-tertiary overflow-hidden">
+                  <div class="ratio hover-effect-target" style="--fn-aspect-ratio: calc(230 / 306 * 100%)">
+                    <img src="assets/img/home/real-estate/cities/04.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="card-body text-center p-3">
+                  <h3 class="h5 mb-0">
+                    <a class="hover-effect-underline stretched-link" href="#">Los Angeles</a>
+                  </h3>
+                </div>
+                <div class="card-footer d-flex bg-transparent border-0 pt-0 pb-3 px-3 mt-n1">
+                  <div class="w-50 text-center pe-1">
+                    <i class="fi-zap mb-1"></i>
+                    <div class="fs-sm">for sale <span class="fw-semibold">1875</span></div>
+                  </div>
+                  <hr class="vr my-0 mx-2">
+                  <div class="w-50 text-center ps-1">
+                    <i class="fi-tag mb-1"></i>
+                    <div class="fs-sm">for rent <span class="fw-semibold">3262</span></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- City card -->
+            <div class="swiper-slide h-auto">
+              <article class="card h-100 hover-effect-scale bg-transparent">
+                <div class="card-img-top bg-body-tertiary overflow-hidden">
+                  <div class="ratio hover-effect-target" style="--fn-aspect-ratio: calc(230 / 306 * 100%)">
+                    <img src="assets/img/home/real-estate/cities/05.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="card-body text-center p-3">
+                  <h3 class="h5 mb-0">
+                    <a class="hover-effect-underline stretched-link" href="#">Chicago</a>
+                  </h3>
+                </div>
+                <div class="card-footer d-flex bg-transparent border-0 pt-0 pb-3 px-3 mt-n1">
+                  <div class="w-50 text-center pe-1">
+                    <i class="fi-zap mb-1"></i>
+                    <div class="fs-sm">for sale <span class="fw-semibold">1549</span></div>
+                  </div>
+                  <hr class="vr my-0 mx-2">
+                  <div class="w-50 text-center ps-1">
+                    <i class="fi-tag mb-1"></i>
+                    <div class="fs-sm">for rent <span class="fw-semibold">2806</span></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- City card -->
+            <div class="swiper-slide h-auto">
+              <article class="card h-100 hover-effect-scale bg-transparent">
+                <div class="card-img-top bg-body-tertiary overflow-hidden">
+                  <div class="ratio hover-effect-target" style="--fn-aspect-ratio: calc(230 / 306 * 100%)">
+                    <img src="assets/img/home/real-estate/cities/06.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="card-body text-center p-3">
+                  <h3 class="h5 mb-0">
+                    <a class="hover-effect-underline stretched-link" href="#">Philadelphia</a>
+                  </h3>
+                </div>
+                <div class="card-footer d-flex bg-transparent border-0 pt-0 pb-3 px-3 mt-n1">
+                  <div class="w-50 text-center pe-1">
+                    <i class="fi-zap mb-1"></i>
+                    <div class="fs-sm">for sale <span class="fw-semibold">874</span></div>
+                  </div>
+                  <hr class="vr my-0 mx-2">
+                  <div class="w-50 text-center ps-1">
+                    <i class="fi-tag mb-1"></i>
+                    <div class="fs-sm">for rent <span class="fw-semibold">1625</span></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Pagination (Bullets) -->
+          <div class="swiper-pagination position-static pt-lg-1 mt-3 mt-sm-4"></div>
+        </div>
+      </section>
+
+
+      <!-- Partners -->
+      <section class="bg-body-tertiary py-5">
+        <div class="container pt-2 pb-sm-2 pt-sm-3 py-md-4 py-lg-5 my-xxl-3">
+          <h2 class="h1 text-center pb-sm-2 pb-md-3 mb-lg-4">Our partners</h2>
+
+          <!-- Row of logos that turns into carousel on screens < 1200px wide (xl breakpoint) -->
+          <div class="swiper" data-swiper="{
+            &quot;slidesPerView&quot;: 1,
+            &quot;spaceBetween&quot;: 0,
+            &quot;pagination&quot;: {
+              &quot;el&quot;: &quot;.swiper-pagination&quot;,
+              &quot;clickable&quot;: true
+            },
+            &quot;breakpoints&quot;: {
+              &quot;400&quot;: {
+                &quot;slidesPerView&quot;: 2
+              },
+              &quot;600&quot;: {
+                &quot;slidesPerView&quot;: 3,
+                &quot;spaceBetween&quot;: 0
+              },
+              &quot;900&quot;: {
+                &quot;slidesPerView&quot;: 4,
+                &quot;spaceBetween&quot;: 16
+              },
+              &quot;1200&quot;: {
+                &quot;slidesPerView&quot;: 5,
+                &quot;spaceBetween&quot;: 16
+              },
+              &quot;1400&quot;: {
+                &quot;slidesPerView&quot;: 5,
+                &quot;spaceBetween&quot;: 24
+              }
+            }
+          }">
+            <div class="swiper-wrapper">
+
+              <!-- Logo -->
+              <div class="swiper-slide">
+                <div class="nav justify-content-center">
+                  <a class="nav-link text-body-secondary p-0" href="#!" aria-label="Partner">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="240" viewBox="0 0 240 81" fill="currentColor"><path d="M87.887 31.097h3.096v16.896h5.094v2.816h-8.19V31.097zm14.04 19.993c-1.52 0-2.684-.432-3.49-1.295s-1.21-2.084-1.21-3.661V35.771c0-1.577.403-2.797 1.21-3.661s1.97-1.295 3.49-1.295 2.683.432 3.489 1.295 1.211 2.084 1.211 3.661v10.363c0 1.577-.404 2.797-1.211 3.661s-1.97 1.295-3.489 1.295zm0-2.816c1.069 0 1.604-.648 1.604-1.943V35.574c0-1.295-.535-1.943-1.604-1.943s-1.605.648-1.605 1.943v10.757c0 1.295.535 1.943 1.605 1.943zm11.187 2.816c-1.501 0-2.646-.422-3.434-1.267-.788-.863-1.182-2.093-1.182-3.689V35.771c0-1.596.394-2.816 1.182-3.661.788-.863 1.933-1.295 3.434-1.295s2.645.432 3.433 1.295c.788.845 1.182 2.065 1.182 3.661v1.69h-2.927v-1.887c0-1.295-.534-1.943-1.604-1.943s-1.604.648-1.604 1.943v10.785c0 1.277.535 1.915 1.604 1.915s1.604-.638 1.604-1.915v-3.858h-1.548v-2.816h4.475v6.449c0 1.596-.394 2.825-1.182 3.689-.788.845-1.932 1.267-3.433 1.267zm11.072 0c-1.519 0-2.683-.432-3.489-1.295s-1.211-2.084-1.211-3.661V35.771c0-1.577.404-2.797 1.211-3.661s1.97-1.295 3.489-1.295 2.683.432 3.49 1.295 1.21 2.084 1.21 3.661v10.363c0 1.577-.403 2.797-1.21 3.661s-1.97 1.295-3.49 1.295zm0-2.816c1.07 0 1.605-.648 1.605-1.943V35.574c0-1.295-.535-1.943-1.605-1.943s-1.604.648-1.604 1.943v10.757c0 1.295.535 1.943 1.604 1.943zm6.8-17.177h3.096v19.712h-3.096V31.097zm5.416 0h4.56c1.538 0 2.692.413 3.461 1.239s1.154 2.037 1.154 3.633v1.943c0 1.596-.384 2.807-1.154 3.633s-1.923 1.239-3.461 1.239h-1.464v8.026h-3.096V31.097zm4.56 8.87c.506 0 .882-.141 1.126-.422.262-.282.393-.76.393-1.436v-2.337c0-.676-.131-1.155-.393-1.436-.244-.282-.62-.422-1.126-.422h-1.464v6.054h1.464zm10.431 11.123c-1.5 0-2.636-.422-3.405-1.267-.769-.863-1.154-2.093-1.154-3.689v-1.126h2.927v1.352c0 1.277.535 1.915 1.604 1.915.526 0 .919-.15 1.182-.451.282-.319.423-.826.423-1.521 0-.826-.188-1.549-.563-2.168-.375-.638-1.07-1.399-2.083-2.281-1.276-1.126-2.167-2.14-2.674-3.041-.506-.92-.759-1.952-.759-3.098 0-1.558.393-2.76 1.181-3.605.789-.863 1.933-1.295 3.434-1.295 1.482 0 2.599.432 3.349 1.295.77.845 1.154 2.065 1.154 3.661v.817h-2.927v-1.014c0-.676-.131-1.164-.394-1.464-.262-.319-.647-.479-1.154-.479-1.032 0-1.547.629-1.547 1.887a3.79 3.79 0 0 0 .562 1.999c.394.619 1.098 1.37 2.111 2.253 1.295 1.126 2.186 2.149 2.674 3.069s.732 1.999.732 3.238c0 1.614-.404 2.853-1.211 3.717-.788.863-1.942 1.295-3.462 1.295zm10.951 0c-1.501 0-2.645-.422-3.434-1.267-.788-.864-1.181-2.093-1.181-3.689V31.097h3.096v15.262c0 .676.131 1.164.393 1.464.282.3.676.451 1.182.451s.891-.15 1.154-.451c.281-.3.422-.789.422-1.464V31.097h2.983v15.037c0 1.596-.393 2.825-1.181 3.689-.789.845-1.933 1.267-3.434 1.267zm6.822-19.993h4.419l1.97 14.108h.056l1.971-14.108H182v19.712h-2.927V35.884h-.056l-2.252 14.925h-2.589l-2.252-14.925h-.056v14.925h-2.702V31.097zM58 50.808a6.9 6.9 0 1 0 0-13.8v4.83a2.07 2.07 0 1 1 0 4.14v4.83zm22.988-11.5c-1.178-.373-2.433-.575-3.735-.575-6.824 0-12.356 5.535-12.356 12.362a12.45 12.45 0 0 0 .163 2.013h7.677a4.93 4.93 0 0 1-.426-2.013c0-2.731 2.213-4.945 4.942-4.945a4.93 4.93 0 0 1 3.735 1.707v-8.55zm-21.777-9.2a10.35 10.35 0 0 0 20.562 0h-7.398c-.457 1.146-1.576 1.955-2.883 1.955s-2.427-.809-2.883-1.955h-7.398z"></path></svg>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Logo -->
+              <div class="swiper-slide">
+                <div class="nav justify-content-center">
+                  <a class="nav-link text-body-secondary p-0" href="#!" aria-label="Partner">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="240" viewBox="0 0 240 81" fill="currentColor"><path d="M66 53.108h24.547v-24H66v24zm19.823-14.309h-5.187v-5.071h5.187v5.071zm-15.099-5.071h5.19v9.69h9.909v5.071H70.724V33.728zm35.808-4.619c-2.427 0-4.8.704-6.818 2.022s-3.592 3.193-4.521 5.385-1.172 4.605-.698 6.933a11.92 11.92 0 0 0 3.359 6.144c1.716 1.678 3.904 2.821 6.285 3.284s4.849.225 7.091-.683a12.22 12.22 0 0 0 5.509-4.42c1.348-1.973 2.068-4.294 2.068-6.667-.004-3.181-1.298-6.232-3.599-8.481s-5.421-3.515-8.675-3.519zm0 19.381c-1.493 0-2.952-.433-4.194-1.244s-2.209-1.964-2.78-3.312-.721-2.833-.43-4.264 1.01-2.747 2.066-3.779 2.401-1.735 3.866-2.02 2.982-.139 4.361.42a7.51 7.51 0 0 1 3.388 2.718 7.26 7.26 0 0 1 1.272 4.1 7.31 7.31 0 0 1-2.214 5.216c-1.415 1.384-3.333 2.162-5.335 2.165zm56.195-19.381c-2.428 0-4.8.703-6.819 2.022s-3.592 3.193-4.521 5.385-1.172 4.605-.699 6.933 1.643 4.466 3.359 6.144 3.904 2.821 6.285 3.284 4.848.226 7.091-.683 4.16-2.446 5.508-4.42A11.81 11.81 0 0 0 175 41.108c-.004-3.181-1.298-6.231-3.598-8.481s-5.421-3.515-8.675-3.519zm0 19.381c-1.493 0-2.952-.433-4.194-1.243s-2.209-1.964-2.781-3.312-.721-2.833-.43-4.265a7.33 7.33 0 0 1 2.066-3.779c1.056-1.032 2.401-1.735 3.865-2.02a7.71 7.71 0 0 1 4.362.42 7.51 7.51 0 0 1 3.388 2.718c.829 1.214 1.272 2.641 1.272 4.101-.003 1.956-.799 3.832-2.214 5.215a7.65 7.65 0 0 1-5.334 2.165zm-28.098-19.381c-2.427 0-4.8.704-6.819 2.022s-3.591 3.193-4.52 5.385-1.172 4.605-.699 6.933 1.643 4.466 3.359 6.144 3.904 2.821 6.285 3.284 4.849.225 7.091-.683a12.22 12.22 0 0 0 5.509-4.42c1.348-1.973 2.068-4.294 2.068-6.667-.004-3.181-1.298-6.232-3.599-8.481s-5.421-3.515-8.675-3.519zm0 19.381a7.68 7.68 0 0 1-3.942-1.084 7.45 7.45 0 0 1-2.783-2.937 7.24 7.24 0 0 1-.805-3.925c.106-1.356.594-2.657 1.409-3.759s1.926-1.963 3.21-2.486 2.69-.691 4.065-.482a7.63 7.63 0 0 1 3.724 1.664c1.061.88 1.853 2.029 2.288 3.32h-7.166v4.618h7.166c-.498 1.474-1.458 2.757-2.745 3.667s-2.833 1.401-4.421 1.404z"></path></svg>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Logo -->
+              <div class="swiper-slide">
+                <div class="nav justify-content-center">
+                  <a class="nav-link text-body-secondary p-0" href="#!" aria-label="Partner">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="240" viewBox="0 0 240 81" fill="currentColor"><path d="M61.167 33.872A7.5 7.5 0 0 0 57 32.608v-7.5a15 15 0 0 1 13.858 9.26 15 15 0 0 1-3.252 16.347 15 15 0 0 1-16.347 3.252A15 15 0 0 1 42 40.108h7.5a7.5 7.5 0 0 0 4.63 6.929 7.5 7.5 0 0 0 8.173-1.626 7.5 7.5 0 0 0 1.626-8.173 7.5 7.5 0 0 0-2.762-3.366z"></path><path d="M49.5 25.108a7.5 7.5 0 0 1-2.197 5.303A7.5 7.5 0 0 1 42 32.608v7.5a15 15 0 0 0 10.607-4.393A15 15 0 0 0 57 25.108h-7.5z"></path><path d="M139.23 35.948h-3.755v11.559h3.755V35.948zm-3.341-2.165c.393.381.883.571 1.472.571s1.072-.19 1.448-.571c.377-.396.565-.872.565-1.427 0-.571-.188-1.046-.565-1.427s-.859-.571-1.448-.571-1.079.19-1.472.571c-.377.381-.565.856-.565 1.427 0 .555.188 1.031.565 1.427zM81.592 47.507V30.715h3.854v13.51h7.682v3.282H81.592z"></path><path d="M100.072 47.769c-1.227 0-2.34-.262-3.338-.785-.982-.539-1.759-1.268-2.332-2.188s-.859-1.95-.859-3.092.286-2.164.859-3.068 1.35-1.617 2.332-2.141c.982-.539 2.094-.809 3.338-.809s2.356.262 3.338.785a6.04 6.04 0 0 1 2.332 2.164c.572.904.859 1.927.859 3.068s-.287 2.172-.859 3.092-1.35 1.649-2.332 2.188c-.982.523-2.095.785-3.338.785zm0-3.306c.54 0 1.014-.111 1.424-.333a2.36 2.36 0 0 0 .932-.975c.229-.428.344-.912.344-1.451s-.115-1.007-.344-1.403c-.229-.412-.548-.729-.957-.951-.393-.238-.859-.357-1.399-.357-.524 0-.99.119-1.399.357a2.37 2.37 0 0 0-.957.951c-.229.412-.344.888-.344 1.427 0 .523.115.999.344 1.427a2.53 2.53 0 0 0 .957.975c.409.222.876.333 1.399.333zm9.5 7.563c.998.444 2.152.666 3.461.666 1.276 0 2.414-.246 3.412-.737s1.783-1.173 2.356-2.045.86-1.903.86-3.092v-10.87h-3.683v.777c-.273-.223-.584-.411-.932-.563-.638-.301-1.367-.452-2.185-.452-1.096 0-2.07.254-2.921.761a5.34 5.34 0 0 0-2.012 2.045c-.491.856-.737 1.824-.737 2.902 0 1.062.246 2.03.737 2.902s1.161 1.562 2.012 2.069 1.825.761 2.921.761c.802 0 1.53-.151 2.185-.452.317-.146.603-.318.859-.516v.73c0 .809-.27 1.435-.81 1.879-.524.444-1.252.666-2.185.666-.752 0-1.399-.127-1.939-.381a4.45 4.45 0 0 1-1.423-1.118l-2.308 2.236c.573.793 1.35 1.403 2.332 1.831zm5.351-8.443c-.376.222-.826.333-1.35.333s-.982-.111-1.374-.333a2.38 2.38 0 0 1-.884-.904c-.213-.396-.319-.817-.319-1.261a2.58 2.58 0 0 1 .319-1.284 2.33 2.33 0 0 1 .908-.904c.393-.222.843-.333 1.35-.333.524 0 .974.111 1.35.333a2.17 2.17 0 0 1 .884.904c.212.381.319.809.319 1.284s-.107.904-.319 1.284a2.21 2.21 0 0 1-.884.88zm12.641 4.186c-1.227 0-2.34-.262-3.338-.785-.982-.539-1.759-1.268-2.332-2.188s-.859-1.95-.859-3.092.287-2.164.859-3.068a6.1 6.1 0 0 1 2.332-2.141c.982-.539 2.095-.809 3.338-.809s2.356.262 3.338.785a6.04 6.04 0 0 1 2.332 2.164c.573.904.859 1.927.859 3.068s-.286 2.172-.859 3.092-1.35 1.649-2.332 2.188c-.982.523-2.095.785-3.338.785zm0-3.306c.54 0 1.014-.111 1.424-.333a2.36 2.36 0 0 0 .932-.975c.23-.428.344-.912.344-1.451s-.114-1.007-.344-1.403c-.229-.412-.548-.729-.957-.951-.392-.238-.859-.357-1.399-.357a2.73 2.73 0 0 0-1.399.357c-.409.222-.728.539-.957.951s-.344.888-.344 1.427c0 .523.115.999.344 1.427a2.53 2.53 0 0 0 .957.975c.409.222.875.333 1.399.333zm20.693 3.282c-.801 0-1.538-.151-2.209-.452-.353-.158-.672-.348-.957-.568v5.658h-3.706V35.948h3.755v.798c.273-.216.575-.403.908-.56.671-.317 1.408-.476 2.209-.476 1.129 0 2.128.262 2.994.785.884.523 1.572 1.237 2.062 2.141.508.904.761 1.935.761 3.092s-.253 2.188-.761 3.092c-.49.904-1.178 1.617-2.062 2.141-.866.523-1.865.785-2.994.785zm-.687-3.282c.54 0 1.007-.119 1.399-.357a2.53 2.53 0 0 0 .957-.975 2.84 2.84 0 0 0 .344-1.403c0-.539-.115-1.015-.344-1.427s-.548-.729-.957-.951c-.392-.238-.851-.357-1.375-.357s-.99.119-1.398.357a2.41 2.41 0 0 0-.933.951c-.229.412-.343.888-.343 1.427 0 .523.106.991.318 1.403a2.53 2.53 0 0 0 .958.975 2.68 2.68 0 0 0 1.374.357z"></path><path d="M157.752 47.531a8.46 8.46 0 0 0 2.085.262c1.49 0 2.668-.333 3.535-.999a3.19 3.19 0 0 0 1.325-2.688c0-.729-.138-1.316-.417-1.76a3.19 3.19 0 0 0-1.08-1.094c-.442-.27-.908-.484-1.399-.642l-1.399-.404c-.441-.111-.801-.238-1.08-.381s-.417-.333-.417-.571c0-.222.107-.389.319-.5.213-.127.531-.19.957-.19.442 0 .892.087 1.35.262.474.174.9.476 1.276.904l2.136-2.093c-.54-.666-1.243-1.166-2.111-1.498-.851-.349-1.783-.523-2.798-.523-.965 0-1.808.159-2.528.476s-1.277.753-1.669 1.308c-.393.539-.589 1.181-.589 1.927 0 .698.139 1.276.417 1.736.278.444.638.793 1.08 1.047a6.37 6.37 0 0 0 1.399.595l1.399.404c.442.111.802.246 1.08.404.295.143.442.357.442.642 0 .222-.123.396-.368.523-.23.127-.565.19-1.007.19-.638 0-1.227-.111-1.767-.333-.54-.238-1.007-.563-1.399-.975l-2.135 2.093c.409.428.9.809 1.473 1.142a8.46 8.46 0 0 0 1.89.737zm13.787.238c-1.096 0-2.069-.214-2.92-.642-.835-.444-1.489-1.047-1.964-1.808-.475-.777-.712-1.665-.712-2.664v-6.707h3.756v6.66c0 .396.065.737.196 1.023a1.59 1.59 0 0 0 .638.666c.279.159.614.238 1.006.238.557 0 .999-.166 1.326-.499.327-.349.491-.824.491-1.427v-6.66h3.755v6.683c0 1.015-.237 1.911-.712 2.688-.474.761-1.128 1.364-1.964 1.808-.834.428-1.799.642-2.896.642zm11.195-11.821h-3.755v11.559h3.755v-6.755c0-.396.082-.729.245-.999.181-.27.418-.476.712-.618a2.09 2.09 0 0 1 1.006-.238c.541 0 .99.166 1.35.499.377.317.565.769.565 1.356v6.755h3.756v-6.755c0-.396.082-.729.245-.999.18-.27.417-.476.712-.618.294-.159.63-.238 1.006-.238.54 0 .99.166 1.35.499.376.317.564.769.564 1.356v6.755h3.756v-7.159c0-.967-.212-1.792-.638-2.474a4.04 4.04 0 0 0-1.694-1.593c-.703-.381-1.514-.571-2.43-.571-.933 0-1.775.198-2.528.595a4.56 4.56 0 0 0-1.282.978 4.15 4.15 0 0 0-1.246-1.025c-.654-.365-1.399-.547-2.233-.547-.884 0-1.677.182-2.381.547-.307.152-.584.334-.835.545v-.854z"></path></svg>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Logo -->
+              <div class="swiper-slide">
+                <div class="nav justify-content-center">
+                  <a class="nav-link text-body-secondary p-0" href="#!" aria-label="Partner">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="240" viewBox="0 0 240 81" fill="currentColor"><path d="M61.12 28.687l1.97-3.578 5.584 3.382-1.969 3.577c-.346.628.172 1.391.85 1.254l3.773-.764 1.221 6.642-3.773.763c-6.103 1.235-10.763-5.629-7.656-11.276zM57.919 51.53l-2.149 3.578-6.092-3.382 2.149-3.578c.377-.628-.187-1.391-.928-1.254l-4.116.763-1.332-6.641 4.116-.763c6.659-1.235 11.741 5.629 8.352 11.276z"></path><path d="M57.918 28.687l-2.148-3.578-6.092 3.382 2.149 3.577c.377.628-.187 1.391-.928 1.254l-4.116-.764-1.331 6.642 4.116.763c6.659 1.235 11.743-5.629 8.352-11.276h-.001zm3.203 22.843l1.968 3.578 5.585-3.382-1.969-3.578c-.345-.628.172-1.391.851-1.254l3.773.763 1.221-6.641-3.773-.763c-6.104-1.235-10.763 5.629-7.656 11.276h.001z"></path><path d="M181.251 48.191v-6.864c0-.951.226-1.805.678-2.56.469-.77 1.133-1.374 1.992-1.813s1.882-.657 3.069-.657c.554-.005 1.106.063 1.64.203.5.121.953.295 1.359.521.421.212.781.468 1.078.77h.047a4.58 4.58 0 0 1 1.077-.77 5.76 5.76 0 0 1 1.383-.521 6.49 6.49 0 0 1 1.663-.203c1.187 0 2.21.218 3.069.657s1.522 1.042 1.991 1.813c.469.755.703 1.608.703 2.56v6.864h-3.655V41.44c0-.377-.101-.717-.304-1.019-.186-.316-.452-.581-.773-.77a2.15 2.15 0 0 0-1.125-.295c-.422 0-.804.098-1.148.295a2.18 2.18 0 0 0-.773.77 1.89 1.89 0 0 0-.281 1.019v6.751h-3.631V41.44c0-.377-.102-.717-.305-1.019a2.12 2.12 0 0 0-.797-.77c-.338-.199-.728-.301-1.125-.295a2.27 2.27 0 0 0-1.147.295 2.18 2.18 0 0 0-.773.77 1.9 1.9 0 0 0-.282 1.019v6.751h-3.63zm-7.943.272c-1.233 0-2.304-.226-3.209-.68-.89-.468-1.578-1.095-2.062-1.88-.484-.8-.726-1.685-.726-2.651v-6.684h3.631v6.593c0 .408.101.786.304 1.133.203.332.477.604.82.816.359.196.766.295 1.219.295a2.32 2.32 0 0 0 1.171-.295c.359-.212.641-.484.844-.816.203-.347.305-.725.305-1.133v-6.593h3.63v6.684c0 .967-.234 1.851-.703 2.651-.468.785-1.147 1.413-2.037 1.88-.875.453-1.938.68-3.187.68zm-17.694-.272v-2.786h5.787a.96.96 0 0 0 .422-.091c.124-.075.226-.174.304-.294s.117-.256.117-.397-.041-.277-.117-.396-.179-.211-.304-.272a.8.8 0 0 0-.422-.113h-2.109c-.781 0-1.492-.121-2.132-.363a3.36 3.36 0 0 1-1.499-1.178c-.36-.544-.539-1.246-.539-2.107a3.44 3.44 0 0 1 .492-1.812 3.91 3.91 0 0 1 1.382-1.315c.59-.331 1.262-.503 1.945-.498h5.786v2.81h-5.224c-.208-.004-.409.069-.562.204-.069.065-.123.142-.159.228a.66.66 0 0 0-.053.27.77.77 0 0 0 .212.544c.153.135.354.208.562.204h2.061c.875 0 1.625.128 2.249.384.641.242 1.133.635 1.477 1.179.359.544.538 1.245.538 2.106a3.36 3.36 0 0 1-.538 1.857c-.341.556-.826 1.017-1.407 1.337-.577.333-1.233.498-1.967.498h-6.302zm-7.912-11.894c1.016 0 1.913.158 2.694.476a5.36 5.36 0 0 1 2.015 1.314c.57.57 1.009 1.249 1.289 1.994.296.755.445 1.593.445 2.515 0 1.148-.25 2.168-.75 3.058-.462.854-1.159 1.567-2.014 2.062-.86.498-1.859.748-2.999.748-.484 0-.945-.06-1.383-.181-.414-.118-.809-.294-1.171-.522a3.2 3.2 0 0 1-.866-.838h-.071v6.186h-3.631V42.595c0-1.284.265-2.395.796-3.331.515-.921 1.297-1.677 2.249-2.176.969-.528 2.101-.792 3.397-.792v.001zm0 3.036c-.562 0-1.054.136-1.475.408-.407.257-.719.619-.938 1.088-.218.452-.327.967-.327 1.54a3.51 3.51 0 0 0 .327 1.541 2.69 2.69 0 0 0 .938 1.088c.421.257.913.385 1.475.385s1.047-.129 1.452-.385a2.68 2.68 0 0 0 .938-1.088c.234-.453.351-.967.351-1.541s-.117-1.087-.351-1.54c-.219-.468-.531-.832-.938-1.088-.405-.272-.89-.408-1.452-.408zm-11.96 8.858V36.568h3.655v11.623h-3.655zm1.827-12.937a2.08 2.08 0 0 1-1.499-.611c-.422-.408-.633-.892-.633-1.45s.211-1.042.633-1.45c.421-.423.921-.635 1.499-.635s1.078.212 1.499.635c.422.408.633.891.633 1.45a1.95 1.95 0 0 1-.633 1.45 2.08 2.08 0 0 1-1.499.611zm-9.771 13.209c-1.233 0-2.342-.264-3.327-.793-.965-.512-1.774-1.262-2.342-2.175-.562-.921-.843-1.956-.843-3.104 0-1.163.281-2.197.843-3.104.568-.912 1.377-1.663 2.342-2.175.985-.544 2.094-.816 3.327-.816s2.335.271 3.304.816a5.97 5.97 0 0 1 2.319 2.175c.578.906.867 1.941.867 3.104 0 1.148-.289 2.183-.867 3.104a5.97 5.97 0 0 1-2.319 2.175c-.984.529-2.085.793-3.304.793zm0-3.058c.578 0 1.078-.136 1.5-.408a2.8 2.8 0 0 0 .984-1.088c.234-.453.351-.967.351-1.541 0-.559-.117-1.064-.351-1.518-.223-.44-.562-.815-.984-1.087s-.922-.408-1.5-.408-1.085.136-1.522.408c-.422.272-.762.647-.985 1.088a3.26 3.26 0 0 0-.35 1.518c0 .573.117 1.087.35 1.54.223.441.563.816.985 1.088.437.271.944.408 1.522.408zm-18.314 7.386v-3.014h5.997c.235 0 .43-.075.586-.226a.67.67 0 0 0 .177-.236.64.64 0 0 0 .057-.286v-2.56h-.07a5.46 5.46 0 0 1-1.007.884 3.76 3.76 0 0 1-1.172.544c-.465.126-.946.187-1.429.181-1.062 0-2.015-.242-2.858-.725-.828-.498-1.484-1.186-1.968-2.062-.468-.876-.703-1.873-.703-2.99 0-1.102.243-2.107.727-3.013.499-.906 1.226-1.631 2.179-2.175s2.116-.816 3.49-.816c1.312 0 2.444.264 3.397.793.957.502 1.739 1.266 2.249 2.197.531.937.797 2.04.797 3.309v6.797c0 1.042-.32 1.865-.961 2.47-.624.619-1.491.929-2.6.929l-6.888.001zm4.03-7.658c.562 0 1.046-.121 1.453-.363.401-.252.724-.604.936-1.019.222-.437.334-.918.328-1.405 0-.543-.109-1.042-.327-1.495s-.532-.808-.938-1.065c-.406-.272-.89-.408-1.453-.408-.546 0-1.031.128-1.452.385a2.56 2.56 0 0 0-.937 1.042c-.218.438-.328.929-.328 1.473 0 .529.109 1.012.328 1.45a2.6 2.6 0 0 0 .937 1.019c.421.257.906.385 1.453.385zm-13.801 3.33c-1.234 0-2.342-.264-3.326-.793-.966-.512-1.775-1.262-2.343-2.175-.562-.921-.843-1.956-.843-3.104 0-1.163.281-2.197.843-3.104.569-.913 1.377-1.663 2.343-2.175.984-.544 2.093-.816 3.326-.816s2.335.271 3.304.816a5.97 5.97 0 0 1 2.319 2.175c.578.906.867 1.941.867 3.104 0 1.148-.289 2.183-.867 3.104a5.97 5.97 0 0 1-2.319 2.175c-.984.529-2.085.793-3.304.793zm0-3.058c.578 0 1.077-.136 1.5-.408a2.8 2.8 0 0 0 .984-1.088c.233-.453.35-.967.35-1.541 0-.559-.117-1.064-.35-1.518a2.8 2.8 0 0 0-.984-1.087c-.422-.272-.922-.408-1.5-.408s-1.086.136-1.522.408a2.8 2.8 0 0 0-.984 1.088c-.239.472-.359.993-.351 1.518 0 .573.117 1.087.351 1.54a2.8 2.8 0 0 0 .984 1.088c.437.271.945.408 1.522.408zm-11.629 2.786c-1.015 0-1.906-.218-2.671-.657-.744-.417-1.359-1.02-1.78-1.744S83 44.264 83 43.388V32.332h3.936V43.66c0 .363.134.68.398.952a1.32 1.32 0 0 0 .984.408h4.334v3.171h-4.568z"></path></svg>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Logo -->
+              <div class="swiper-slide">
+                <div class="nav justify-content-center">
+                  <a class="nav-link text-body-secondary p-0" href="#!" aria-label="Partner">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="240" viewBox="0 0 240 81" fill="currentColor"><path d="M88.82 45.8c0 .742-.148 1.313-.443 1.711-.288.398-.769.598-1.444.598-.637 0-1.088-.199-1.353-.598-.258-.398-.386-.969-.386-1.711V33.413c0-.742.129-1.312.386-1.711.265-.399.716-.598 1.353-.598.674 0 1.156.199 1.444.598.296.398.443.969.443 1.711V45.8zm1.102-3.598c0-.828.129-1.609.387-2.344.265-.742.659-1.391 1.182-1.945.531-.555 1.19-.996 1.978-1.324.796-.328 1.728-.492 2.797-.492 1.023 0 1.929.152 2.717.457s1.451.73 1.989 1.277c.538.539.948 1.184 1.228 1.934.281.742.421 1.555.421 2.438 0 .82-.133 1.598-.398 2.332a5.45 5.45 0 0 1-1.194 1.922c-.53.547-1.194.984-1.989 1.313-.796.32-1.721.48-2.774.48-1.038 0-1.955-.152-2.751-.457-.788-.312-1.451-.738-1.989-1.277-.531-.547-.932-1.187-1.205-1.922a7.05 7.05 0 0 1-.398-2.391zm3.786 0a7.74 7.74 0 0 0 .136 1.477 4.11 4.11 0 0 0 .432 1.219c.205.352.47.633.796.844.326.203.724.305 1.194.305.432 0 .807-.094 1.125-.281.326-.187.591-.449.796-.785.212-.336.371-.738.477-1.207a7.24 7.24 0 0 0 .159-1.57c0-.516-.049-1.004-.148-1.465-.091-.469-.239-.879-.444-1.23a2.33 2.33 0 0 0-.796-.844c-.318-.211-.709-.316-1.171-.316s-.856.102-1.182.305-.591.48-.796.832-.352.762-.443 1.23a7.8 7.8 0 0 0-.136 1.488zm18.243 3.645a3.63 3.63 0 0 1-.75.996 4.04 4.04 0 0 1-.966.68 4.82 4.82 0 0 1-1.126.387 6.25 6.25 0 0 1-1.216.117c-.698 0-1.334-.129-1.91-.387a4.22 4.22 0 0 1-1.49-1.113c-.409-.492-.727-1.094-.955-1.805s-.341-1.523-.341-2.437c0-.859.106-1.664.319-2.414s.519-1.402.921-1.957c.409-.555.909-.992 1.5-1.312s1.266-.48 2.024-.48c.864 0 1.629.172 2.296.516.675.344 1.255.906 1.74 1.688v-.305c0-.562.148-.984.443-1.266.303-.289.72-.434 1.251-.434.318 0 .587.055.807.164.22.102.394.258.523.469.129.203.22.457.273.762a5.18 5.18 0 0 1 .091 1.02v7.852c0 .953-.118 1.805-.353 2.555-.227.75-.583 1.383-1.068 1.899s-1.107.906-1.865 1.172c-.758.273-1.66.41-2.706.41-.735 0-1.387-.035-1.955-.105a7.4 7.4 0 0 1-1.455-.293c-.41-.148-.72-.312-.933-.492-.204-.18-.307-.414-.307-.703a1.58 1.58 0 0 1 .069-.469 1.22 1.22 0 0 1 .204-.398 1.15 1.15 0 0 1 .376-.27c.159-.062.352-.094.579-.094a5.74 5.74 0 0 1 .728.047l.773.094.853.105c.303.031.629.047.977.047a4.39 4.39 0 0 0 1.115-.129c.325-.086.602-.238.829-.457s.402-.512.523-.879c.122-.359.182-.82.182-1.383V45.85zm0-3.645a8.87 8.87 0 0 0-.125-1.559c-.076-.469-.208-.867-.398-1.196-.189-.336-.443-.594-.761-.773-.319-.187-.717-.281-1.194-.281-.47 0-.86.098-1.171.293a2.12 2.12 0 0 0-.728.809c-.182.344-.31.746-.386 1.207a10.12 10.12 0 0 0-.103 1.477c0 1.195.205 2.094.614 2.695s1.005.902 1.785.902c.364-.008.694-.078.989-.211a2.08 2.08 0 0 0 .785-.645c.22-.29.39-.656.511-1.102s.182-.984.182-1.617zm4.479 0a7.05 7.05 0 0 1 .386-2.344 5.51 5.51 0 0 1 1.183-1.945c.53-.555 1.189-.996 1.978-1.324.796-.328 1.728-.492 2.796-.492 1.024 0 1.929.152 2.718.457s1.451.73 1.989 1.277c.538.539.948 1.184 1.228 1.934.28.742.421 1.555.421 2.438 0 .82-.133 1.598-.398 2.332a5.46 5.46 0 0 1-1.194 1.922c-.531.547-1.194.984-1.99 1.313-.795.32-1.72.48-2.774.48-1.038 0-1.955-.152-2.751-.457-.788-.312-1.451-.738-1.989-1.277a5.43 5.43 0 0 1-1.205-1.922c-.266-.742-.398-1.539-.398-2.391zm3.785 0a7.74 7.74 0 0 0 .137 1.477 4.11 4.11 0 0 0 .432 1.219c.205.352.47.633.796.844.326.203.724.305 1.193.305.432 0 .808-.094 1.126-.281a2.22 2.22 0 0 0 .796-.785c.212-.336.371-.738.477-1.207a7.24 7.24 0 0 0 .159-1.57 7.03 7.03 0 0 0-.147-1.465c-.091-.469-.239-.879-.444-1.23-.204-.359-.47-.641-.796-.844-.318-.211-.708-.316-1.171-.316s-.856.102-1.182.305a2.36 2.36 0 0 0-.796.832c-.204.352-.352.762-.443 1.23a7.8 7.8 0 0 0-.137 1.488zm13.788-10.054c0 .258-.057.488-.17.691a1.61 1.61 0 0 1-.444.492 2.03 2.03 0 0 1-.636.305 2.82 2.82 0 0 1-.728.094 2.73 2.73 0 0 1-.762-.105 2.04 2.04 0 0 1-.625-.305 1.59 1.59 0 0 1-.432-.504c-.106-.195-.159-.418-.159-.668a1.31 1.31 0 0 1 .148-.621 1.66 1.66 0 0 1 .42-.504 1.93 1.93 0 0 1 .626-.328 2.58 2.58 0 0 1 .795-.117c.251 0 .493.035.728.105.243.07.455.172.637.305a1.47 1.47 0 0 1 .432.492 1.31 1.31 0 0 1 .17.668zm-.17 13.652c0 .742-.148 1.313-.444 1.711-.288.398-.769.598-1.444.598-.636 0-1.087-.199-1.352-.598-.258-.398-.387-.969-.387-1.711v-7.172c0-.742.129-1.312.387-1.711.265-.398.716-.598 1.352-.598.675 0 1.156.199 1.444.598.296.398.444.969.444 1.711V45.8zm5.231-3.621a8.98 8.98 0 0 0 .113 1.465 3.94 3.94 0 0 0 .41 1.195 2.25 2.25 0 0 0 .773.797c.326.195.727.293 1.205.293.439 0 .807-.094 1.103-.281a2.15 2.15 0 0 0 .728-.797c.181-.344.31-.746.386-1.207.083-.461.125-.961.125-1.5a9.65 9.65 0 0 0-.091-1.312c-.061-.453-.174-.863-.341-1.231a2.39 2.39 0 0 0-.694-.902c-.295-.234-.682-.352-1.159-.352s-.883.078-1.217.234a1.92 1.92 0 0 0-.796.715c-.197.32-.337.723-.42 1.207-.084.477-.125 1.035-.125 1.676zm-.012-3.551c.19-.414.432-.777.728-1.09a4.5 4.5 0 0 1 .978-.785 4.35 4.35 0 0 1 1.114-.469 4.36 4.36 0 0 1 1.17-.164c.698 0 1.328.16 1.888.48a4.46 4.46 0 0 1 1.432 1.313c.402.547.709 1.195.922 1.945a8.71 8.71 0 0 1 .318 2.391c0 .883-.114 1.691-.341 2.426-.22.734-.535 1.367-.944 1.898a4.36 4.36 0 0 1-1.456 1.23c-.56.297-1.185.445-1.875.445-.849 0-1.607-.203-2.274-.609s-1.22-.976-1.66-1.711v4.219c0 .742-.147 1.313-.443 1.711-.288.398-.769.598-1.444.598-.636 0-1.087-.199-1.353-.598-.257-.398-.386-.969-.386-1.711v-11.52c0-.742.129-1.312.386-1.711.266-.398.717-.598 1.353-.598.675 0 1.156.199 1.444.598.296.398.443.969.443 1.711zm12.547.832c0 .305.129.543.386.715.258.164.614.301 1.069.41l1.33.293 1.33.328a9.01 9.01 0 0 1 1.217.422 3.82 3.82 0 0 1 1 .621 2.61 2.61 0 0 1 .682.891c.167.344.25.758.25 1.242 0 .609-.121 1.153-.364 1.629-.242.469-.587.867-1.034 1.195-.439.328-.966.582-1.58.762a7.51 7.51 0 0 1-2.035.281c-.705 0-1.384-.047-2.036-.141a8.12 8.12 0 0 1-1.739-.41c-.5-.187-.901-.418-1.205-.691-.303-.281-.454-.609-.454-.984 0-.328.102-.582.306-.762s.466-.27.785-.27a1.63 1.63 0 0 1 .432.07l.545.176.626.235.704.211a9.02 9.02 0 0 0 .933.211 7.03 7.03 0 0 0 1.001.07c.211 0 .42-.02.624-.059.205-.047.388-.113.547-.199a1.31 1.31 0 0 0 .409-.352 1.03 1.03 0 0 0 .193-.516 1.03 1.03 0 0 0 .056-.141.51.51 0 0 0 .024-.164c0-.219-.099-.414-.296-.586-.189-.172-.459-.309-.807-.41l-1.672-.387-1.477-.375a9.08 9.08 0 0 1-1.229-.457 3.44 3.44 0 0 1-.932-.633 2.73 2.73 0 0 1-.591-.902c-.137-.352-.204-.777-.204-1.277 0-.539.117-1.02.352-1.441a3.08 3.08 0 0 1 1.035-1.078c.447-.289.988-.508 1.626-.656.636-.156 1.356-.234 2.159-.234 1.44 0 2.535.18 3.286.539.758.352 1.137.813 1.137 1.383 0 .32-.103.566-.307.738-.205.164-.451.246-.739.246-.152 0-.311-.027-.478-.082l-.579-.199a5.36 5.36 0 0 0-.819-.199c-.31-.062-.697-.094-1.159-.094l-.956.047c-.28.031-.523.086-.727.164-.197.078-.353.184-.466.316-.107.133-.159.301-.159.504zm11.881 4.301a3.02 3.02 0 0 0 .137.961 2.1 2.1 0 0 0 .397.691c.167.18.36.316.58.41a2.04 2.04 0 0 0 .727.129 2.74 2.74 0 0 0 .876-.141 2.02 2.02 0 0 0 .739-.434 2.07 2.07 0 0 0 .523-.738c.129-.297.193-.645.193-1.043v-4.969c0-.742.129-1.313.387-1.711.265-.398.716-.598 1.353-.598.674 0 1.155.199 1.443.598.296.398.444.969.444 1.711V45.8c0 .742-.148 1.313-.444 1.711-.288.398-.769.598-1.443.598-.637 0-1.088-.199-1.353-.598-.258-.398-.387-.969-.387-1.711a3.88 3.88 0 0 1-.625.984 3.93 3.93 0 0 1-.887.773c-.334.211-.704.375-1.114.492a4.65 4.65 0 0 1-1.307.176c-.508 0-.997-.09-1.467-.27a3.64 3.64 0 0 1-1.228-.82c-.356-.367-.64-.82-.852-1.359s-.318-1.168-.318-1.887v-5.262c0-.742.129-1.313.386-1.711.265-.398.716-.598 1.353-.598.674 0 1.155.199 1.444.598.295.398.443.969.443 1.711v5.133zm9.442-5.133c0-.742.129-1.312.387-1.711.265-.398.716-.598 1.352-.598.676 0 1.157.199 1.445.598.295.398.443.969.443 1.711a3.74 3.74 0 0 1 .614-1.019 4.19 4.19 0 0 1 .898-.797 4.31 4.31 0 0 1 1.103-.504c.394-.125.803-.187 1.228-.187a4.17 4.17 0 0 1 1.159.164 3.22 3.22 0 0 1 1.069.504 3.46 3.46 0 0 1 .875.867c.251.352.444.773.581 1.266a5.16 5.16 0 0 1 .829-1.324c.318-.359.664-.648 1.034-.867a4.14 4.14 0 0 1 1.16-.469 5.47 5.47 0 0 1 1.228-.141c.485 0 .947.09 1.387.27a3.16 3.16 0 0 1 1.171.82c.341.359.61.816.807 1.371.205.547.307 1.188.307 1.922V45.8c0 .742-.148 1.313-.444 1.711-.287.398-.769.598-1.443.598-.637 0-1.088-.199-1.353-.598-.258-.398-.387-.969-.387-1.711v-5.133c0-.352-.045-.664-.136-.938-.091-.281-.22-.516-.387-.703-.159-.195-.348-.34-.568-.434a1.65 1.65 0 0 0-.704-.152 2.59 2.59 0 0 0-.887.152 2 2 0 0 0-.739.469 2.4 2.4 0 0 0-.501.809c-.121.328-.181.723-.181 1.184V45.8c0 .742-.149 1.313-.444 1.711-.288.398-.769.598-1.444.598-.637 0-1.088-.199-1.353-.598-.258-.398-.387-.969-.387-1.711v-4.91c0-.805-.163-1.414-.488-1.828-.319-.414-.755-.621-1.307-.621a2.48 2.48 0 0 0-.91.164c-.281.109-.523.27-.728.48s-.368.473-.489.785c-.114.313-.17.672-.17 1.078V45.8c0 .742-.148 1.313-.443 1.711-.288.398-.769.598-1.445.598-.636 0-1.087-.199-1.352-.598-.258-.398-.387-.969-.387-1.711v-7.172zM62 46.108a6 6 0 1 1 0-12 6 6 0 1 1 0 12zm-11.575-3.575c-1.72.298-2.899 1.929-2.238 3.516a14.59 14.59 0 0 0 4.298 5.733c2.726 2.206 6.164 3.385 9.696 3.324s6.926-1.356 9.572-3.654a14.56 14.56 0 0 0 4.092-5.877c.603-1.609-.633-3.198-2.362-3.437s-3.282.997-4.136 2.493a8.39 8.39 0 0 1-1.784 2.171c-1.518 1.319-3.466 2.062-5.492 2.097s-3.999-.642-5.563-1.907a8.4 8.4 0 0 1-1.86-2.109c-.907-1.465-2.503-2.647-4.222-2.349zm26.459-.932c.077-.6.116-1.212.116-1.832 0-8.097-6.716-14.661-15-14.661s-15 6.564-15 14.661a14.44 14.44 0 0 0 .19 2.34c.689-.922 1.764-1.58 2.926-1.78 1.257-.217 2.399.081 3.364.638-.057-.391-.087-.791-.087-1.197 0-4.646 3.853-8.412 8.606-8.412s8.606 3.766 8.606 8.412a8.33 8.33 0 0 1-.049.907c.945-.59 2.076-.927 3.34-.753 1.168.16 2.265.781 2.987 1.678z"></path></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pagination (Bullets) -->
+            <div class="swiper-pagination position-static mt-sm-2"></div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Top agents -->
+      <section class="container pt-2 pt-sm-3 pt-md-4 pt-lg-5 pb-5 my-xxl-3">
+        <h2 class="h1 text-center pt-5 pb-3 mb-2 mb-sm-3 mb-lg-4">Top real estate agents</h2>
+        <div class="row row-cols-2 row-cols-md-4 g-4 mb-n3">
+
+          <!-- Agent -->
+          <div class="col mb-3">
+            <article class="hover-effect-scale text-center">
+              <div class="position-relative mb-3">
+                <div class="ratio ratio-1x1 bg-body-secondary rounded-circle overflow-hidden mx-auto wow flipInX" style="width: 132px">
+                  <img src="assets/img/home/real-estate/agents/01.png" class="hover-effect-target" alt="Avatar">
+                </div>
+                <h3 class="h5 pt-3 mt-sm-1 mb-1">
+                  <a class="hover-effect-underline stretched-link" href="#">Ivy Taylor</a>
+                </h3>
+                <p class="fs-sm mb-0">Imperial Property Group Agent</p>
+              </div>
+              <div class="d-flex justify-content-center gap-1">
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="Instagram" aria-label="Instagram">
+                  <i class="fi-instagram fs-base"></i>
+                </a>
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="Facebook" aria-label="Facebook">
+                  <i class="fi-facebook fs-base"></i>
+                </a>
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="LinkedIn" aria-label="LinkedIn">
+                  <i class="fi-linkedin fs-base"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Agent -->
+          <div class="col mb-3">
+            <article class="hover-effect-scale text-center">
+              <div class="position-relative mb-3">
+                <div class="ratio ratio-1x1 bg-body-secondary rounded-circle overflow-hidden mx-auto wow flipInX" data-wow-delay="0.2s" style="width: 132px">
+                  <img src="assets/img/home/real-estate/agents/02.png" class="hover-effect-target" alt="Avatar">
+                </div>
+                <h3 class="h5 pt-3 mt-sm-1 mb-1">
+                  <a class="hover-effect-underline stretched-link" href="#">Floyd Miles</a>
+                </h3>
+                <p class="fs-sm mb-0">Urban Nest Realty Group Agent</p>
+              </div>
+              <div class="d-flex justify-content-center gap-1">
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="Instagram" aria-label="Instagram">
+                  <i class="fi-instagram fs-base"></i>
+                </a>
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="Facebook" aria-label="Facebook">
+                  <i class="fi-facebook fs-base"></i>
+                </a>
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="LinkedIn" aria-label="LinkedIn">
+                  <i class="fi-linkedin fs-base"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Agent -->
+          <div class="col mb-3">
+            <article class="hover-effect-scale text-center">
+              <div class="position-relative mb-3">
+                <div class="ratio ratio-1x1 bg-body-secondary rounded-circle overflow-hidden mx-auto wow flipInX" data-wow-delay="0.4s" style="width: 132px">
+                  <img src="assets/img/home/real-estate/agents/03.png" class="hover-effect-target" alt="Avatar">
+                </div>
+                <h3 class="h5 pt-3 mt-sm-1 mb-1">
+                  <a class="hover-effect-underline stretched-link" href="#">Adrian Frederick</a>
+                </h3>
+                <p class="fs-sm mb-0">Prime Path Properties Agent</p>
+              </div>
+              <div class="d-flex justify-content-center gap-1">
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="Instagram" aria-label="Instagram">
+                  <i class="fi-instagram fs-base"></i>
+                </a>
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="Facebook" aria-label="Facebook">
+                  <i class="fi-facebook fs-base"></i>
+                </a>
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="LinkedIn" aria-label="LinkedIn">
+                  <i class="fi-linkedin fs-base"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Agent -->
+          <div class="col mb-3">
+            <article class="hover-effect-scale text-center">
+              <div class="position-relative mb-3">
+                <div class="ratio ratio-1x1 bg-body-secondary rounded-circle overflow-hidden mx-auto wow flipInX" data-wow-delay="0.6s" style="width: 132px">
+                  <img src="assets/img/home/real-estate/agents/04.png" class="hover-effect-target" alt="Avatar">
+                </div>
+                <h3 class="h5 pt-3 mt-sm-1 mb-1">
+                  <a class="hover-effect-underline stretched-link" href="#">Hugh Blake</a>
+                </h3>
+                <p class="fs-sm mb-0">Harbor View Real Estate Agent</p>
+              </div>
+              <div class="d-flex justify-content-center gap-1">
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="Instagram" aria-label="Instagram">
+                  <i class="fi-instagram fs-base"></i>
+                </a>
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="Facebook" aria-label="Facebook">
+                  <i class="fi-facebook fs-base"></i>
+                </a>
+                <a class="btn btn-icon btn-sm btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" title="LinkedIn" aria-label="LinkedIn">
+                  <i class="fi-linkedin fs-base"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Latest blog posts -->
+      <section class="container py-2 py-sm-3 py-md-4 py-lg-5 my-xxl-3">
+        <div class="d-flex align-items-start justify-content-between gap-4 pb-3 mb-2 mb-sm-3 mb-lg-4">
+          <h2 class="h1 mb-0">Latest blogs</h2>
+          <div class="nav">
+            <a class="nav-link position-relative fs-base text-nowrap py-1 px-0" href="#">
+              <span class="hover-effect-underline stretched-link me-1">View all</span>
+              <i class="fi-chevron-right fs-lg"></i>
+            </a>
+          </div>
+        </div>
+
+         <!-- Row of articles that turns into carousel on screens < 992px wide (lg breakpoint) -->
+         <div class="swiper pb-5" data-swiper="{
+          &quot;slidesPerView&quot;: 1,
+          &quot;spaceBetween&quot;: 24,
+          &quot;pagination&quot;: {
+            &quot;el&quot;: &quot;.swiper-pagination&quot;,
+            &quot;clickable&quot;: true
+          },
+          &quot;breakpoints&quot;: {
+            &quot;500&quot;: {
+              &quot;slidesPerView&quot;: 2
+            },
+            &quot;992&quot;: {
+              &quot;slidesPerView&quot;: 3
+            }
+          }
+        }">
+          <div class="swiper-wrapper ">
+
+            <!-- Article -->
+            <article class="swiper-slide  wow bounceInDown">
+              <a class="ratio d-flex hover-effect-scale rounded overflow-hidden mb-3 mb-sm-4" href="#" style="--fn-aspect-ratio: calc(300 / 416 * 100%)">
+                <img src="assets/img/blog/v1/01.jpg" class="hover-effect-target" alt="Image">
+              </a>
+              <div class="nav pb-1 mb-2">
+                <a class="nav-link text-body-secondary fs-xs text-uppercase p-0" href="#!">Renting advice</a>
+              </div>
+              <h3 class="h5 mb-2">
+                <a class="hover-effect-underline" href="#">What to know when renting an apartment</a>
+              </h3>
+              <p class="fs-sm">It is quite difficult to find a good apartment for long-term rent in large cities. In addition, potential tenants can face prob...</p>
+              <div class="nav fs-sm gap-3">
+                <a class="nav-link fw-semibold p-0" href="#!">by Cody Fisher</a>
+                <span class="text-body-secondary">July 09, 2024</span>
+              </div>
+            </article>
+
+            <!-- Article -->
+            <article class="swiper-slide  wow bounceInDown" data-wow-delay="0.3s">
+              <a class="ratio d-flex hover-effect-scale rounded overflow-hidden mb-3 mb-sm-4" href="#" style="--fn-aspect-ratio: calc(300 / 416 * 100%)">
+                <img src="assets/img/blog/v1/02.jpg" class="hover-effect-target" alt="Image">
+              </a>
+              <div class="nav pb-1 mb-2">
+                <a class="nav-link text-body-secondary fs-xs text-uppercase p-0" href="#!">Investment advice</a>
+              </div>
+              <h3 class="h5 mb-2">
+                <a class="hover-effect-underline" href="#">Types of luxury housing</a>
+              </h3>
+              <p class="fs-sm">What luxury housing is clear to every person. Housing characterized by increased comfort, interior, quality and ma...</p>
+              <div class="nav fs-sm gap-3">
+                <a class="nav-link fw-semibold p-0" href="#!">by Kristin Watson</a>
+                <span class="text-body-secondary">June 26, 2024</span>
+              </div>
+            </article>
+
+            <!-- Article -->
+            <article class="swiper-slide  wow bounceInDown" data-wow-delay="0.6s">
+              <a class="ratio d-flex hover-effect-scale rounded overflow-hidden mb-3 mb-sm-4" href="#" style="--fn-aspect-ratio: calc(300 / 416 * 100%)">
+                <img src="assets/img/blog/v1/03.jpg" class="hover-effect-target" alt="Image">
+              </a>
+              <div class="nav pb-1 mb-2">
+                <a class="nav-link text-body-secondary fs-xs text-uppercase p-0" href="#!">Home improvement</a>
+              </div>
+              <h3 class="h5 mb-2">
+                <a class="hover-effect-underline" href="#">How to modernize your home on a budget</a>
+              </h3>
+              <p class="fs-sm">Modernizing your home doesn't have to break the bank. Here are some budget-friendly tips to give your living space a mo...</p>
+              <div class="nav fs-sm gap-3">
+                <a class="nav-link fw-semibold p-0" href="#!">by Darrell Steward</a>
+                <span class="text-body-secondary">May 13, 2024</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- Pagination (Bullets) -->
+          <div class="swiper-pagination position-static mt-3 mt-sm-4"></div>
+        </div>
+      </section>
+    </main>
+
+
+    <!-- Page footer -->
+    <footer class="footer bg-body border-top pt-5" data-bs-theme="dark">
+      <div class="container pt-sm-2 pt-md-3 pt-lg-4 pb-4">
+        <div class="accordion row pb-4 pb-md-3 pb-lg-4 mb-2 mb-sm-3 mb-md-2" id="footerLinks">
+
+          <!-- Logo + Contacts -->
+          <div class="col-sm-5 col-md-4 col-lg-3  wow bounceInLeft">
+            <a class="d-inline-flex align-items-center text-dark-emphasis text-decoration-none mb-4" href="#">
+              <span class="flex-shrink-0 text-primary rtl-flip me-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34"><path d="M34.5 16.894v10.731c0 3.506-2.869 6.375-6.375 6.375H17.5h-.85C7.725 33.575.5 26.138.5 17c0-9.35 7.65-17 17-17s17 7.544 17 16.894z" fill="currentColor"></path><g fill-rule="evenodd"><path d="M17.5 13.258c-3.101 0-5.655 2.554-5.655 5.655s2.554 5.655 5.655 5.655 5.655-2.554 5.655-5.655-2.554-5.655-5.655-5.655zm-9.433 5.655c0-5.187 4.246-9.433 9.433-9.433s9.433 4.246 9.433 9.433a9.36 9.36 0 0 1-1.569 5.192l2.397 2.397a1.89 1.89 0 0 1 0 2.671 1.89 1.89 0 0 1-2.671 0l-2.397-2.397a9.36 9.36 0 0 1-5.192 1.569c-5.187 0-9.433-4.246-9.433-9.433z" fill="#000" fill-opacity=".05"></path><g fill="#fff"><path d="M17.394 10.153c-3.723 0-6.741 3.018-6.741 6.741s3.018 6.741 6.741 6.741 6.741-3.018 6.741-6.741-3.018-6.741-6.741-6.741zM7.347 16.894A10.05 10.05 0 0 1 17.394 6.847 10.05 10.05 0 0 1 27.44 16.894 10.05 10.05 0 0 1 17.394 26.94 10.05 10.05 0 0 1 7.347 16.894z"></path><path d="M23.025 22.525c.645-.645 1.692-.645 2.337 0l3.188 3.188c.645.645.645 1.692 0 2.337s-1.692.645-2.337 0l-3.187-3.187c-.645-.646-.645-1.692 0-2.337z"></path></g></g><path d="M23.662 14.663c2.112 0 3.825-1.713 3.825-3.825s-1.713-3.825-3.825-3.825-3.825 1.713-3.825 3.825 1.713 3.825 3.825 3.825z" fill="#fff"></path><path fill-rule="evenodd" d="M23.663 8.429a2.41 2.41 0 0 0-2.408 2.408 2.41 2.41 0 0 0 2.408 2.408 2.41 2.41 0 0 0 2.408-2.408 2.41 2.41 0 0 0-2.408-2.408zm-5.242 2.408c0-2.895 2.347-5.242 5.242-5.242s5.242 2.347 5.242 5.242-2.347 5.242-5.242 5.242-5.242-2.347-5.242-5.242z" fill="currentColor"></path></svg>
+              </span>
+              <span class="fs-4 fw-semibold">Finder</span>
+            </a>
+            <ul class="list-unstyled gap-3">
+              <li>
+                <div class="position-relative d-flex align-items-center">
+                  <i class="fi-mail fs-lg text-body me-2"></i>
+                  <a class="text-dark-emphasis text-decoration-none hover-effect-underline stretched-link" href="mailto:contact@example.com">contact@example.com</a>
+                </div>
+              </li>
+              <li>
+                <div class="position-relative d-flex align-items-center">
+                  <i class="fi-phone-call fs-lg text-body me-2"></i>
+                  <a class="text-dark-emphasis text-decoration-none hover-effect-underline stretched-link" href="tel:+15053753082">+1&nbsp;50&nbsp;537&nbsp;53&nbsp;082</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Columns with links that are turned into accordion on screens < 500px wide (sm breakpoint) -->
+          <div class="accordion-item col-sm-4 col-md-4 col-lg-3 border-0 wow bounceInLeft" data-wow-delay="0.2s">
+            <h6 class="accordion-header" id="quickLinksHeading">
+              <span class="h5 d-none d-sm-block">Quick links</span>
+              <button type="button" class="accordion-button collapsed py-3 d-sm-none" data-bs-toggle="collapse" data-bs-target="#quickLinks" aria-expanded="false" aria-controls="quickLinks">Quick links</button>
+            </h6>
+            <div class="accordion-collapse collapse d-sm-block" id="quickLinks" aria-labelledby="quickLinksHeading" data-bs-parent="#footerLinks">
+              <ul class="nav flex-column gap-2 pt-sm-1 pt-lg-2 pb-3 pb-sm-0 mt-n1 mb-1 mb-sm-0">
+                <li class="pt-1">
+                  <a class="nav-link hover-effect-underline d-inline text-body fw-normal p-0" href="#!">Daily rental</a>
+                </li>
+                <li class="pt-1">
+                  <a class="nav-link hover-effect-underline d-inline text-body fw-normal p-0" href="#!">Long-term rental</a>
+                </li>
+                <li class="pt-1">
+                  <a class="nav-link hover-effect-underline d-inline text-body fw-normal p-0" href="#!">Buy property</a>
+                </li>
+                <li class="pt-1">
+                  <a class="nav-link hover-effect-underline d-inline text-body fw-normal p-0" href="#!">Sell property</a>
+                </li>
+                <li class="pt-1">
+                  <a class="nav-link hover-effect-underline d-inline text-body fw-normal p-0" href="#!">Popular offers</a>
+                </li>
+              </ul>
+            </div>
+            <hr class="d-sm-none my-0">
+          </div>
+          <div class="accordion-item col-sm-3 col-lg-2 col-xxl-3 border-0 wow bounceInLeft" data-wow-delay="0.4s">
+            <h6 class="accordion-header" id="profileLinksHeading">
+              <span class="h5 d-none d-sm-block">Profile</span>
+              <button type="button" class="accordion-button collapsed py-3 d-sm-none" data-bs-toggle="collapse" data-bs-target="#profileLinks" aria-expanded="false" aria-controls="profileLinks">Profile</button>
+            </h6>
+            <div class="accordion-collapse collapse d-sm-block" id="profileLinks" aria-labelledby="profileLinksHeading" data-bs-parent="#footerLinks">
+              <ul class="nav flex-column gap-2 pt-sm-1 pt-lg-2 pb-3 pb-sm-0 mt-n1 mb-1 mb-sm-0">
+                <li class="pt-1">
+                  <a class="nav-link hover-effect-underline d-inline text-body fw-normal p-0" href="#!">My account</a>
+                </li>
+                <li class="pt-1">
+                  <a class="nav-link hover-effect-underline d-inline text-body fw-normal p-0" href="#!">My listings</a>
+                </li>
+                <li class="pt-1">
+                  <a class="nav-link hover-effect-underline d-inline text-body fw-normal p-0" href="#!">Add listings</a>
+                </li>
+                <li class="pt-1">
+                  <a class="nav-link hover-effect-underline d-inline text-body fw-normal p-0" href="#!">Help center</a>
+                </li>
+                <li class="pt-1">
+                  <a class="nav-link hover-effect-underline d-inline text-body fw-normal p-0" href="#!">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+            <hr class="d-sm-none my-0">
+          </div>
+
+          <!-- Subscription + Social links -->
+          <div class="col-lg-4 col-xxl-3 pt-4 pt-md-5 pt-lg-0 mt-3 mt-md-0 wow bounceInLeft" data-wow-delay="0.4s">
+            <div class="d-flex flex-column flex-sm-row flex-lg-column align-items-center justify-content-between justify-content-lg-center text-center text-sm-start text-lg-center">
+              <h6 class="h5 mb-sm-0 mb-lg-3 me-sm-3 me-md-4 me-lg-0">Get exclusive advice</h6>
+              <button type="button" class="btn btn-lg btn-outline-secondary w-100" style="max-width: 205px">Sign up</button>
+              <div class="d-flex justify-content-center pt-2 pt-sm-0 pt-lg-3 ps-sm-3 ps-lg-0 mt-3 mt-sm-0 mt-lg-3">
+                <a class="btn btn-icon fs-base btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-template="<div class=&quot;tooltip fs-xs mb-n2&quot; role=&quot;tooltip&quot;><div class=&quot;tooltip-inner bg-transparent text-white opacity-75 p-0&quot;></div></div>" title="Instagram" aria-label="Follow us on Instagram">
+                  <i class="fi-instagram"></i>
+                </a>
+                <a class="btn btn-icon fs-base btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-template="<div class=&quot;tooltip fs-xs mb-n2&quot; role=&quot;tooltip&quot;><div class=&quot;tooltip-inner bg-transparent text-white opacity-75 p-0&quot;></div></div>" title="Facebook" aria-label="Follow us on Facebook">
+                  <i class="fi-facebook"></i>
+                </a>
+                <a class="btn btn-icon fs-base btn-outline-secondary border-0" href="#!" data-bs-toggle="tooltip" data-bs-template="<div class=&quot;tooltip fs-xs mb-n2&quot; role=&quot;tooltip&quot;><div class=&quot;tooltip-inner bg-transparent text-white opacity-75 p-0&quot;></div></div>" title="X (Twitter)" aria-label="Follow us on X (Twitter)">
+                  <i class="fi-x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile app CTA -->
+        <div class="position-relative d-flex flex-column flex-md-row align-items-center overflow-hidden mb-md-2">
+          <div class="position-relative d-xl-flex align-items-center w-100 z-2 text-center text-md-start py-4 py-md-5 px-4 px-sm-5 ps-md-5 pe-md-0 pe-lg-5 pe-xl-0 mt-md-4 ms-xxl-3 me-lg-5 me-xl-0">
+            <div class="pt-3 pt-md-0 pt-xl-2 pe-xl-2 pe-xxl-0 me-xl-4 me-xxl-5">
+              <h3 class="mb-2">Download Finder App</h3>
+              <p class="text-body-secondary mb-xl-0">Find everything you need for buying, selling and renting property in our new Finder App!</p>
+            </div>
+            <div class="d-flex flex-shrink-0 justify-content-center justify-content-md-start gap-3 pt-xl-3 pe-xl-3 me-xxl-5">
+              <a class="btn btn-market btn-lg" href="#!" aria-label="Download on App Store">
+                <i class="fi-apple lead ms-n1 me-2"></i>
+                <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="77" height="24" viewBox="0 0 77 24" fill="currentColor"><path d="M40.713 15.797c.701-.624 1.055-1.431 1.055-2.427 0-.806-.242-1.486-.733-2.032-.483-.546-1.232-1.02-2.255-1.423-.838-.324-1.418-.625-1.732-.901a1.41 1.41 0 0 1-.548-1.138 1.39 1.39 0 0 1 .475-1.059c.379-.316.91-.482 1.579-.482.854 0 1.611.182 2.288.538l.483-1.518c-.717-.372-1.619-.553-2.699-.553-1.216 0-2.191.308-2.924.917a2.94 2.94 0 0 0-1.103 2.356c0 1.463 1.039 2.577 3.142 3.344.765.277 1.313.577 1.643.901a1.63 1.63 0 0 1 .491 1.194c0 .53-.201.957-.604 1.273-.395.316-.959.474-1.675.474-.999 0-1.917-.245-2.755-.727l-.443 1.557c.773.482 1.796.727 3.077.727 1.386 0 2.465-.34 3.238-1.02zm-31.706.846h2.03L7.195 4.966H4.826L1 16.644h1.974l1.055-3.431h3.867l1.112 3.431zM6.558 8.729l1.007 3.044H4.367l.991-3.044.564-2.198h.04l.596 2.198zm13.122 6.997c.797-.83 1.192-1.961 1.192-3.392 0-1.289-.338-2.316-1.031-3.107-.677-.783-1.514-1.178-2.529-1.178-1.289 0-2.255.506-2.892 1.51h-.032l-.105-1.336h-1.675l.072 2.767v9.068h1.909v-4.42c.499.798 1.313 1.194 2.449 1.194 1.047 0 1.933-.364 2.642-1.107zm-1.313-5.353c.379.53.564 1.202.564 2.024 0 .893-.201 1.605-.604 2.15-.403.538-.959.814-1.675.814-.612 0-1.112-.213-1.49-.633s-.572-.941-.572-1.55v-1.407c0-.15.032-.34.089-.569a2.11 2.11 0 0 1 .749-1.202c.387-.3.814-.459 1.281-.459a1.96 1.96 0 0 1 1.659.83zm12.366 1.961c0 1.431-.395 2.562-1.192 3.392-.709.743-1.595 1.107-2.642 1.107-1.136 0-1.949-.395-2.449-1.194v4.42H22.54v-9.068l-.072-2.767h1.675l.105 1.336h.032c.636-1.004 1.603-1.51 2.892-1.51 1.015 0 1.853.395 2.529 1.178.693.791 1.031 1.818 1.031 3.107zm-1.941.063c0-.822-.185-1.494-.564-2.024a1.96 1.96 0 0 0-1.659-.83c-.467 0-.894.158-1.281.459-.379.308-.628.704-.749 1.202-.056.229-.089.419-.089.569v1.407c0 .609.193 1.131.572 1.55s.878.633 1.49.633c.717 0 1.281-.277 1.676-.814.411-.546.604-1.257.604-2.15zM48.083 9.63h-2.102v4.087c0 1.036.37 1.557 1.112 1.557.338 0 .62-.032.846-.087l.056 1.423c-.379.134-.87.206-1.482.206-.757 0-1.337-.229-1.764-.68s-.636-1.21-.636-2.269V9.623h-1.248V8.223h1.249V6.681l1.869-.553v2.095h2.102V9.63zm8.329 5.922c.749-.83 1.128-1.89 1.128-3.186 0-1.257-.362-2.285-1.096-3.075-.765-.822-1.78-1.233-3.037-1.233-1.305 0-2.344.419-3.117 1.249-.765.83-1.152 1.897-1.152 3.202 0 1.249.37 2.285 1.12 3.099s1.756 1.225 3.013 1.225c1.305 0 2.352-.427 3.142-1.281zm-1.353-5.131c.338.553.508 1.21.508 1.984s-.177 1.439-.524 2.008c-.419.68-.991 1.02-1.716 1.02-.741 0-1.321-.332-1.732-1.004-.338-.546-.508-1.21-.508-1.984 0-.799.161-1.471.508-2.024.395-.672.983-1.004 1.748-1.004.741 0 1.313.332 1.716 1.004zm8.683-.553c-.185-.032-.387-.047-.604-.047-.669 0-1.192.245-1.555.743-.314.435-.475.996-.475 1.66v4.419h-1.909v-5.771l-.056-2.649h1.659l.072 1.613h.056c.201-.553.516-1.004.951-1.336.427-.3.886-.451 1.377-.451a4.09 4.09 0 0 1 .475.032l.008 1.787zm8.451 3.012c.048-.229.072-.514.072-.846 0-1.051-.258-1.929-.765-2.656-.628-.901-1.571-1.352-2.803-1.352-1.257 0-2.255.451-2.997 1.352-.709.846-1.063 1.905-1.063 3.17 0 1.289.379 2.324 1.136 3.091s1.804 1.154 3.133 1.154c1.104 0 2.062-.174 2.876-.522l-.298-1.297c-.693.261-1.466.395-2.312.395-.765 0-1.386-.198-1.869-.585-.532-.435-.806-1.075-.83-1.905h5.719zm-2.119-2.767c.258.403.387.886.371 1.439l-3.963-.008c.056-.561.25-1.051.564-1.455a1.82 1.82 0 0 1 1.514-.759c.677 0 1.184.261 1.514.783z"></path></svg>
+              </a>
+              <a class="btn btn-market btn-lg" href="#!" aria-label="Download on Google Play">
+                <svg class="flex-shrink-0 ms-n1 me-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19.665 10.561l-3.251-1.878-3.329 3.329 3.328 3.329 3.263-1.884c.509-.309.812-.849.812-1.444s-.304-1.135-.823-1.451z" fill="#ffce00"></path><path d="M13.085 12.011L4.018 2.879a1.71 1.71 0 0 0-.507 1.216v15.804a1.71 1.71 0 0 0 .507 1.217l9.067-9.105z" fill="#01daff"></path><path d="M13.086 12.011l3.329-3.329.005-.005-4.46-2.568L6.08 2.654c-.529-.327-1.171-.338-1.712-.034a2.54 2.54 0 0 0-.349.259l9.067 9.132z" fill="#00f076"></path><path d="M4.019 21.116c.113.101.225.18.349.259.27.146.552.225.834.225.304 0 .597-.09.867-.248l5.891-3.439 4.46-2.568-.005-.005-3.329-3.329-9.067 9.104z" fill="#f63448"></path></svg>
+                <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="77" height="24" viewBox="0 0 77 24" fill="currentColor"><path d="M24.575 9.45c-2.184 0-3.914 1.704-3.914 4.071 0 2.272 1.729 4.071 3.914 4.071s3.914-1.704 3.914-4.071c0-2.461-1.729-4.071-3.914-4.071zm0 6.438c-1.183 0-2.184-1.041-2.184-2.462s1.001-2.462 2.184-2.462 2.184.947 2.184 2.462c0 1.42-1.001 2.462-2.184 2.462zM16.11 9.45c-2.184 0-3.914 1.704-3.914 4.071 0 2.272 1.729 4.071 3.914 4.071s3.914-1.704 3.914-4.071c0-2.461-1.729-4.071-3.914-4.071zm0 6.438c-1.183 0-2.184-1.041-2.184-2.462s1.001-2.462 2.184-2.462 2.184.947 2.184 2.462c0 1.42-1.001 2.462-2.184 2.462zM6.007 10.681v1.704h3.914c-.091.947-.455 1.704-.91 2.177-.546.568-1.456 1.231-3.004 1.231-2.457 0-4.278-1.988-4.278-4.544s1.911-4.544 4.278-4.544c1.274 0 2.275.568 3.004 1.231l1.183-1.231C9.193 5.757 7.918 5 6.098 5 2.822 5 0 7.84 0 11.249s2.822 6.249 6.098 6.249c1.82 0 3.095-.568 4.187-1.799 1.092-1.136 1.456-2.745 1.456-3.976 0-.379 0-.757-.091-1.041H6.007zm41.322 1.325c-.364-.947-1.274-2.556-3.277-2.556s-3.641 1.61-3.641 4.071c0 2.272 1.638 4.071 3.823 4.071 1.729 0 2.822-1.136 3.186-1.799l-1.274-.947c-.455.663-1.001 1.136-1.911 1.136s-1.456-.379-1.911-1.231l5.188-2.272-.182-.473zm-5.279 1.326c0-1.515 1.183-2.367 2.002-2.367.637 0 1.274.379 1.456.852l-3.459 1.515zm-4.278 3.882h1.729V5.379h-1.729v11.834zm-2.73-6.911c-.455-.473-1.183-.947-2.093-.947-1.911 0-3.732 1.799-3.732 4.071s1.729 3.976 3.732 3.976c.91 0 1.638-.473 2.002-.947h.091v.568c0 1.515-.819 2.367-2.093 2.367-1.001 0-1.729-.757-1.911-1.42l-1.456.663C30.036 19.675 31.128 21 33.039 21c2.002 0 3.641-1.231 3.641-4.166V9.639h-1.638v.663zm-2.002 5.586c-1.183 0-2.184-1.041-2.184-2.462s1.001-2.462 2.184-2.462 2.093 1.041 2.093 2.462-.91 2.462-2.093 2.462zM55.247 5.379h-4.096v11.834h1.729v-4.45h2.367c1.911 0 3.732-1.42 3.732-3.692s-1.82-3.692-3.732-3.692zm.091 5.681h-2.457V6.988h2.457c1.274 0 2.002 1.136 2.002 1.988-.091 1.041-.819 2.083-2.002 2.083zm10.467-1.704c-1.274 0-2.549.568-3.004 1.799l1.547.663c.364-.663.91-.852 1.547-.852.91 0 1.729.568 1.82 1.515v.095c-.273-.189-1.001-.473-1.729-.473-1.638 0-3.277.947-3.277 2.651 0 1.609 1.365 2.651 2.821 2.651 1.183 0 1.729-.568 2.184-1.136h.091v.947h1.638v-4.544c-.182-2.083-1.729-3.314-3.641-3.314zm-.182 6.533c-.546 0-1.365-.284-1.365-1.041 0-.947 1.001-1.231 1.82-1.231.728 0 1.092.189 1.547.379-.182 1.136-1.092 1.894-2.002 1.894zm9.557-6.249l-1.911 5.112h-.091l-2.002-5.112h-1.82l3.004 7.195-1.729 3.976h1.729L77 9.639h-1.82zm-15.291 7.574h1.729V5.379h-1.729v11.834z"></path></svg>
+              </a>
+            </div>
+          </div>
+          <div class="ratio rtl-flip position-relative z-2 align-self-md-end me-md-n4 me-lg-n5 me-xxl-0 wow bounceIn" data-wow-delay="0.6s" style="--fn-aspect-ratio: calc(233 / 466 * 100%); max-width: 466px">
+            <img src="assets/img/app-footer.png" alt="Finder app">
+          </div>
+          <div class="bg-body-tertiary position-absolute bottom-0 start-0 w-100 rounded-4 d-none d-md-block" style="height: calc(100% - 32px)"></div>
+          <div class="bg-body-tertiary position-absolute bottom-0 start-0 w-100 h-100 rounded-4 d-md-none"></div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center pt-4 pb-md-2">
+          <p class="text-body-secondary fs-sm mb-0">© All rights reserved. Made by <a class="text-body fw-medium text-decoration-none hover-effect-underline" href="https://createx.studio/" target="_blank" rel="noreferrer">Createx Studio</a></p>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Back to top button -->
+    <div class="floating-buttons position-fixed top-50 end-0 z-sticky me-3 me-xl-4 pb-4">
+      <a class="btn-scroll-top btn btn-sm bg-body border-0 rounded-pill shadow animate-slide-end" href="#top">
+        Top
+        <i class="fi-arrow-right fs-base ms-1 me-n1 animate-target"></i>
+        <span class="position-absolute top-0 start-0 w-100 h-100 border rounded-pill z-0"></span>
+        <svg class="position-absolute top-0 start-0 w-100 h-100 z-1" viewBox="0 0 62 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x=".75" y=".75" width="60.5" height="30.5" rx="15.25" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"></rect>
+        </svg>
+      </a>
+      <a class="btn btn-sm btn-outline-secondary text-uppercase bg-body rounded-pill shadow animate-rotate ms-2 me-n5" href="#customizer" style="font-size: .625rem; letter-spacing: .05rem;" data-bs-toggle="offcanvas" role="button" aria-controls="customizer">
+        Customize<i class="fi-settings fs-base ms-1 me-n2 animate-target"></i>
+      </a>
+    </div>
+
+
+    <!-- Vendor scripts -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/choices.js/choices.min.js"></script>
+    <script src="assets/vendor/nouislider/nouislider.min.js"></script>
+
+    <!-- Bootstrap + Theme scripts -->
+    <script src="assets/js/theme.min.js"></script>
+    <script src="assets/lib/wow/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="assets/js/script.js"></script>
+  
+
+</body></html>
